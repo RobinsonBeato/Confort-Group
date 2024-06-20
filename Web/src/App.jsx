@@ -6,6 +6,7 @@ import Header from'../components/Header'
 import MainSection from '../components/MainSection'
 import Footer from '../components/Footer'
 import Stats from '../components/Stats'
+import About from '../components/About'
 
 
 
@@ -17,7 +18,9 @@ function App() {
       <Header/>
       <MainSection/>
       <Stats/>
+      <About/>
       <Footer/>
+      
       
         
     </>
