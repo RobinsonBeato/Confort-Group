@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 
 
 
+
 const MainSection = () => {
   return (
+    
     <main>
       <article className="container">
 
@@ -20,7 +22,7 @@ const MainSection = () => {
 
           <div className="hero-content">
             <h2 className="h2 hero-title">We Design & Build Creative Products</h2>
-            <a href="#contact" className="btn btn-primary">Get in touch</a>
+            <a href="#contact" className="btn btn-primary backdrop-blur-xl ">Get in touch</a>
           </div>
 
           <ul className="hero-social-list">
@@ -32,8 +34,8 @@ const MainSection = () => {
             </li>
             <li>
               <a href="#" className="hero-social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-                <div className="tooltip">Twitter</div>
+                <ion-icon name="logo-instagram"></ion-icon>
+                <div className="tooltip">Instagram</div>
               </a>
             </li>
             <li>
@@ -51,7 +53,9 @@ const MainSection = () => {
         {/* Rest of your article content goes here */}
 
       </article>
+      
     </main>
+    
   );
 };
 
