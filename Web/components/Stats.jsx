@@ -12,7 +12,7 @@ const Stats = () => {
             </div>
 
             <h2 className="h2 card-title">
-              12+ <strong>Years of Experience</strong>
+              12+ <strong>De experiencia</strong>
             </h2>
 
             <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -28,7 +28,7 @@ const Stats = () => {
             </div>
 
             <h2 className="h2 card-title">
-              230+ <strong>Completed Projects</strong>
+              30+ <strong>Servicios de bienestar</strong>
             </h2>
 
             <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -44,7 +44,7 @@ const Stats = () => {
             </div>
 
             <h2 className="h2 card-title">
-              95+ <strong>Happy Clients</strong>
+             150+ <strong>Clientes Satisfechos</strong>
             </h2>
 
             <ion-icon name="chevron-forward-outline"></ion-icon>
