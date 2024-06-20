@@ -1,7 +1,7 @@
 const Stats = () => {
 
   return (
-    <section className="stats" id="stats">
+    <section className="stats margin" id="stats">
       <ul className="stats-list">
 
         <li>

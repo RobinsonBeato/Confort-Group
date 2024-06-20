@@ -107,6 +107,22 @@ body.light_theme {
 /*-----------------------------------*\
  * #RESET
 \*-----------------------------------*/
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+  
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.whatsapp-btn img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
 
 *, *::before, *::after {
   margin: 0;
