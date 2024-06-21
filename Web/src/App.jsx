@@ -8,6 +8,8 @@ import Footer from '../components/Footer'
 import Stats from '../components/Stats'
 import About from '../components/About'
 import WhatsApp from '../components/WhatsApp'
+import Contact from '../components/Contact'
+import ImageCarousel from '../components/ImageCarousel'
 
 
 
@@ -20,8 +22,11 @@ function App() {
       <WhatsApp/>
       <MainSection />
       <Stats />
-      <About />
+      <ImageCarousel/>
+      <About/>
+      <Contact/>
       <Footer />
+
 
 
 

@@ -99,7 +99,19 @@ body.light_theme {
   --shadow-1: 10px 10px 40px var(--card-shadow);
 
 }
+/*-----------------------------------*\
+ * #Carousel
+\*-----------------------------------*/
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
 
+.carousel-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
 
 
 
