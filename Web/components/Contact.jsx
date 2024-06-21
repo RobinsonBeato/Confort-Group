@@ -22,12 +22,14 @@ const Contact = () => {
                         </div>
 
                         <div className="wrapper">
-                            <h3 className="h4 contact-item-title">Address:</h3>
+                            <h3 className="h4 contact-item-title">Dirección</h3>
 
-                            <address className="contact-info">
+                            <address style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', }} className="contact-info">
                                 941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
                             </address>
+                           
                         </div>
+                        
 
                     </li>
 
@@ -38,7 +40,7 @@ const Contact = () => {
                         </div>
 
                         <div className="wrapper">
-                            <h3 className="h4 contact-item-title">Phone:</h3>
+                            <h3 className="h4 contact-item-title">Teléfono:</h3>
 
                             <a href="tel:01234567789" className="contact-info">(01) 234 567 789</a>
 
