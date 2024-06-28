@@ -44,16 +44,16 @@ const ImageCarousel = () => {
     <div className="carousel-container">
       <Slider {...settings}>
         <div>
-          <img src="./assets/images/hero-banner.png" alt="Image 1" />
+          <img src="./assets/images/test1.jpeg" alt="Image 1" />
         </div>
         <div>
           <img src="./assets/images/test1.jpeg" alt="Image 2" />
         </div>
         <div>
-          <img src="./assets/images/hero-banner.png" alt="Image 3" />
+          <img src="./assets/images/test1.jpeg" alt="Image 3" />
         </div>
         <div>
-          <img src="./assets/images/hero-banner.png" alt="Image 4" />
+          <img src="./assets/images/test1.jpeg" alt="Image 4" />
         </div>
       </Slider>
     </div>

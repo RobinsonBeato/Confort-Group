@@ -13,7 +13,9 @@ function RecidencialRenacer() {
 
   return (
     <>
+
       <h1>Residencial Renacer</h1>
+     
 
 
 

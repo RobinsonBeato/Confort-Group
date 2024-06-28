@@ -5,7 +5,7 @@ const About = () => {
         <section className="about" id="about">
 
             <figure className="about-banner">
-                <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
+                <img src="./assets/images/about.png" alt="A man in a alice blue shirt with a thinking expression"
                     className="w-100"/>
             </figure>
 

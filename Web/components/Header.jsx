@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from "../components/Logo"
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -69,22 +70,24 @@ const Header = () => {
     <header className="header" data-header>
       <div className="container">
         <h1 className="h1 logo">
-          <Link to="/">Confort-Group<span>.</span></Link>
+          <Link to="/">
+            <Logo/>
+          </Link>
         </h1>
 
-        <div className="navbar-actions">
+        {/* <div className="navbar-actions">
           <button className="theme-btn" aria-label="Change Theme" title="Change Theme" onClick={handleThemeToggle} data-theme-btn>
             <span className="icon"></span>
           </button>
-        </div>
+        </div> */}
 
-        <button className="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" onClick={handleNavToggle} data-nav-toggle-btn>
+        <button className="nav-toggle-btn "  aria-label="Toggle Menu" title="Toggle Menu" onClick={handleNavToggle} data-nav-toggle-btn>
           <span className="one"></span>
           <span className="two"></span>
           <span className="three"></span>
         </button>
 
-        <nav className={`navbar ${isNavOpen ? 'active' : ''}`} data-navbar>
+        <nav className={`navbar ${isNavOpen ? 'active' : ''}`}  data-navbar>
           <ul className="navbar-list">
             <li><Link to="/" className="navbar-link" onClick={handleNavLinkClick}>Inicio</Link></li>
             <li><a href="#about" className="navbar-link" onClick={handleNavLinkClick}>Sobre Nosotros</a></li>

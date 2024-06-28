@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 
 const MainSection = () => {
   return (
-    
+
     <main>
       <article className="container">
 
@@ -14,15 +14,15 @@ const MainSection = () => {
 
           <figure className="hero-banner">
             <picture>
-              <source srcSet="./assets/images/hero-banner.png" media="(min-width: 768px)" />
-              <source srcSet="./assets/images/hero-banner-md.png" media="(min-width: 500px)" />
-              <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression" className="w-100" />
+              <source srcSet="./assets/images/tests1.png" media="(min-width: 768px)" />
+              <source srcSet="./assets/images/tests1.png" media="(min-width: 500px)" />
+              <img src="./assets/images/tests2.png" alt="A man in a blue shirt with a happy expression" className="w-100" />
             </picture>
           </figure>
 
           <div className="hero-content">
-            <h2 className="h2 hero-title">We Design & Build Creative Products</h2>
-            <a href="#contact" className="btn btn-primary backdrop-blur-xl ">Get in touch</a>
+            <h2 className="h2 hero-title">Lorem impus veritas </h2>
+            <a href="#contact" className="btn btn-primary backdrop-blur-xl ">Hablemos</a>
           </div>
 
           <ul className="hero-social-list">
@@ -53,9 +53,9 @@ const MainSection = () => {
         {/* Rest of your article content goes here */}
 
       </article>
-      
+
     </main>
-    
+
   );
 };
 

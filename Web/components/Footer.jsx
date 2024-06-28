@@ -1,3 +1,4 @@
+import Logo from "./Logo";
 
 
 const Footer = () => {
@@ -8,7 +9,7 @@ const Footer = () => {
 
       <p className="h1 logo">
         <a href="#">
-        Confort-Group<span>.</span>
+          <Logo/>
         </a>
       </p>
 
