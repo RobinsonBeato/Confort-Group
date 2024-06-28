@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -59,17 +60,19 @@ const Header = () => {
     };
   }, []);
 
+  const handleNavLinkClick = () => {
+    setIsNavOpen(false);
+    document.body.classList.remove('active');
+  };
+
   return (
     <header className="header" data-header>
       <div className="container">
-
         <h1 className="h1 logo">
-          <a href="#">Confort-Group<span>.</span></a>
+          <Link to="/">Confort-Group<span>.</span></Link>
         </h1>
 
         <div className="navbar-actions">
-          
-
           <button className="theme-btn" aria-label="Change Theme" title="Change Theme" onClick={handleThemeToggle} data-theme-btn>
             <span className="icon"></span>
           </button>
@@ -83,14 +86,14 @@ const Header = () => {
 
         <nav className={`navbar ${isNavOpen ? 'active' : ''}`} data-navbar>
           <ul className="navbar-list">
-            <li><a href="#home" className="navbar-link">Inicio</a></li>
-            <li><a href="#about" className="navbar-link">Centros</a></li>
-            <li><a href="#skills" className="navbar-link">Servicios</a></li>
+            <li><Link to="/" className="navbar-link" onClick={handleNavLinkClick}>Inicio</Link></li>
+            <li><a href="#about" className="navbar-link" onClick={handleNavLinkClick}>Sobre Nosotros</a></li>
+            <li><Link to="/residencial-renacer" className="navbar-link" onClick={handleNavLinkClick}>Centros</Link></li>
+            <li><a href="/PageTest" className="navbar-link" onClick={handleNavLinkClick}>Servicios</a></li>
             {/* <li><a href="#portfolio" className="navbar-link">Portfolio</a></li> */}
-            <li><a href="#contact" className="navbar-link">Contacto</a></li>
+            <li><a href="#contact" className="navbar-link" onClick={handleNavLinkClick}>Contacto</a></li>
           </ul>
         </nav>
-
       </div>
     </header>
   );

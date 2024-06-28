@@ -1,52 +1,53 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import Home from "../pages/Home"
 import './App.css'
-import Header from '../components/Header'
-import MainSection from '../components/MainSection'
-import Footer from '../components/Footer'
-import Stats from '../components/Stats'
-import About from '../components/About'
-import WhatsApp from '../components/WhatsApp'
-import Contact from '../components/Contact'
-import ImageCarousel from '../components/ImageCarousel'
-import Accordion from '../components/Accordion'
+import ResidencialRenacer from '../pages/ResidencialRenacer';
+import Layout from './Layout';
+import { Routes, Route, Outlet, Link } from "react-router-dom";
 
-
-function App() {
-  // const [count, setCount] = useState(0)
-  const accordionItems = [
-    {
-      title: 'Título 1',
-      content: 'Este es el contenido para el primer ítem del acordeón.'
-    },
-    {
-      title: 'Título 2',
-      content: 'Este es el contenido para el segundo ítem del acordeón.'
-    },
-    {
-      title: 'Título 3',
-      content: 'Este es el contenido para el tercer ítem del acordeón.'
-    }
-  ];
-
+export default function App() {
   return (
     <>
-      <Header />
-      <WhatsApp/>
-      <MainSection />
-      <Stats />
-      <Accordion items={accordionItems}/>
-      <ImageCarousel/>
-      <About/>
-      <Contact/>
-      <Footer />
-
-
-
-
+      <Routes>
+        
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home/>} />
+          <Route path="residencial-renacer" element={<ResidencialRenacer/>} />
+          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="*" element={<NoMatch />} />
+        </Route>
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+
+
+
+
+function About() {
+  return (
+    <div>
+      <h2>About</h2>
+    </div>
+  );
+}
+
+function Dashboard() {
+  return (
+    <div>
+      <h2>Dashboard</h2>
+    </div>
+  );
+}
+
+function NoMatch() {
+  return (
+    <div>
+      <h2>Nothing to see here!</h2>
+      <p>
+        <Link to="/">Go to the home page</Link>
+      </p>
+    </div>
+  );
+}
