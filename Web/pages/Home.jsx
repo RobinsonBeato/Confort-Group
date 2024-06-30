@@ -12,6 +12,7 @@ import Accordion from '../components/Accordion'
 
 
 import { Routes, Route, Outlet, Link } from "react-router-dom";
+import Centros from '../components/Centros'
 
 
 function Home() {
@@ -36,6 +37,7 @@ function Home() {
             <WhatsApp />
             <MainSection />
             <Stats />
+            <Centros/>
             <Accordion items={accordionItems} />
             <ImageCarousel />
             <About />
