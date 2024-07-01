@@ -74,18 +74,7 @@
  * #THEME COLORS
 \*-----------------------------------*/
 
-body.dark_theme {
 
-  --bg-primary: hsl(0, 0%, 12%);
-  --bg-secondary: hsl(0, 0%, 19%);
-  --color-primary: hsl(0, 0%, 100%);
-  --color-secondary: hsl(0, 0%, 62%);
-  --card-shadow: hsla(0, 0%, 0%, 0.4);
-  --input-bg: hsl(0, 0%, 16%);
-
-  --shadow-1: 10px 10px 40px var(--card-shadow);
-
-}
 
 body.light_theme {
 
@@ -1137,10 +1126,10 @@ textarea.input-field {
 
 .go-top {
   position: fixed;
-  bottom: 25px;
-  right: 25px;
-  width: 45px;
-  height: 45px;
+  bottom: 100px;
+  right: 24px;
+  width: 40px;
+  height: 40px;
   display: grid;
   place-items: center;
   font-size: 20px;

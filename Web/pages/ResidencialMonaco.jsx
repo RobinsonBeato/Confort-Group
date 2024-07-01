@@ -186,7 +186,7 @@ function ResidencialMonaco() {
           </div>
 
        
-          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.9960365130923!2d-56.22325942491745!3d-34.83119217287351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1d50044bf61fb%3A0x504b130faf518b44!2sResidencial%20renacer!5e0!3m2!1ses!2suy!4v1719747210811!5m2!1ses!2suy" width="100%" height="100%"  allowFullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.9960365130923!2d-56.22325942491745!3d-34.83119217287351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1d50044bf61fb%3A0x504b130faf518b44!2sResidencial%20renacer!5e0!3m2!1ses!2suy!4v1719747210811!5m2!1ses!2suy" width="100%" height="100%"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             
 
         </section>

@@ -67,38 +67,43 @@ const Header = () => {
   };
 
   return (
-    <header className="header" data-header>
-      <div className="container">
-        <h1 className="h1 logo">
-          <Link to="/">
-            <Logo/>
-          </Link>
-        </h1>
+    <>
+      <header className="header" data-header>
+        <div className="container">
+          <h1 className="h1 logo">
+            <Link to="/">
+              <Logo />
+            </Link>
+          </h1>
 
-        {/* <div className="navbar-actions">
+          {/* <div className="navbar-actions">
           <button className="theme-btn" aria-label="Change Theme" title="Change Theme" onClick={handleThemeToggle} data-theme-btn>
             <span className="icon"></span>
           </button>
         </div> */}
 
-        <button className="nav-toggle-btn "  aria-label="Toggle Menu" title="Toggle Menu" onClick={handleNavToggle} data-nav-toggle-btn>
-          <span className="one"></span>
-          <span className="two"></span>
-          <span className="three"></span>
-        </button>
+          <button className="nav-toggle-btn " aria-label="Toggle Menu" title="Toggle Menu" onClick={handleNavToggle} data-nav-toggle-btn>
+            <span className="one"></span>
+            <span className="two"></span>
+            <span className="three"></span>
+          </button>
 
-        <nav className={`navbar ${isNavOpen ? 'active' : ''}`}  data-navbar>
-          <ul className="navbar-list">
-            <li><Link to="/" className="navbar-link" onClick={handleNavLinkClick}>Inicio</Link></li>
-            <li><Link to="/about" className="navbar-link" onClick={handleNavLinkClick}>Sobre Nosotros</Link></li>
-            <li><Link to="/centros" className="navbar-link" onClick={handleNavLinkClick}>Centros</Link></li>
-            <li><Link to="/PageTest" className="navbar-link" onClick={handleNavLinkClick}>Servicios</Link></li>
-            {/* <li><a href="#portfolio" className="navbar-link">Portfolio</a></li> */}
-            <li><Link to="/contact" className="navbar-link" onClick={handleNavLinkClick}>Contacto</Link></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+          <nav className={`navbar ${isNavOpen ? 'active' : ''}`} data-navbar>
+            <ul className="navbar-list">
+              <li><Link to="/" className="navbar-link" onClick={handleNavLinkClick}>Inicio</Link></li>
+              <li><Link to="/about" className="navbar-link" onClick={handleNavLinkClick}>Sobre Nosotros</Link></li>
+              <li><Link to="/centros" className="navbar-link" onClick={handleNavLinkClick}>Centros</Link></li>
+              <li><Link to="/PageTest" className="navbar-link" onClick={handleNavLinkClick}>Servicios</Link></li>
+              {/* <li><a href="#portfolio" className="navbar-link">Portfolio</a></li> */}
+              <li><Link to="/contact" className="navbar-link" onClick={handleNavLinkClick}>Contacto</Link></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <a href="#top" className="go-top" data-go-top title="Go to Top">
+        <ion-icon name="arrow-up"></ion-icon>
+      </a>
+    </>
   );
 };
 
