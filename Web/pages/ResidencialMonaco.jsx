@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -55,8 +56,12 @@ function ResidencialMonaco() {
           <p className="section-text margin">
             ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
           </p>
+          
+          <div className="btn-group">
+                  <a href="#contact"  className="btn btn-secondary">Hablemos</a>
 
-
+                  <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+          </div>
 
         </div>
 

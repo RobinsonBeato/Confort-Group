@@ -17,30 +17,16 @@ import Centros from '../components/Centros'
 
 function Home() {
 
-    const accordionItems = [
-        {
-            title: 'Título 1',
-            content: 'Este es el contenido para el primer ítem del acordeón.'
-        },
-        {
-            title: 'Título 2',
-            content: 'Este es el contenido para el segundo ítem del acordeón.'
-        },
-        {
-            title: 'Título 3',
-            content: 'Este es el contenido para el tercer ítem del acordeón.'
-        }
-    ];
+
 
     return (
         <>
             <WhatsApp />
             <MainSection />
             <Stats />
-            <Centros/>
-            <Accordion items={accordionItems} />
-            <ImageCarousel />
+            <Centros />
             <About />
+            <ImageCarousel />
             <Contact />
         </>
     )
