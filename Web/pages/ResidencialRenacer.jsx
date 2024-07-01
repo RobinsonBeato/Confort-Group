@@ -1,4 +1,4 @@
-import ResidencialCard from "../components/ResidencialCard";
+import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -40,7 +40,7 @@ function ResidencialRenacer() {
   };
   return (
     <>
-      <section className="about" id="about">
+      <section className="about" id="residencial-renacer">
 
         <figure className="about-banner">
           <img src="./assets/images/about.png" alt="A man in a alice blue shirt with a thinking expression"
@@ -51,13 +51,17 @@ function ResidencialRenacer() {
 
           <p className="section-subtitle margin">Residencial Renacer</p>
 
-          <h2 className="h3 section-title margin">¿Necesita cuidado especializado para adultos mayores en Montevideo? ¡Podemos ayudar!</h2>
+          <h2 className="h3 section-title margin">Reacer </h2>
 
           <p className="section-text margin">
             ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
           </p>
+          
+          <div className="btn-group">
+                  <a href="#contact"  className="btn btn-secondary">Hablemos</a>
 
-
+                  <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+          </div>
 
         </div>
 
