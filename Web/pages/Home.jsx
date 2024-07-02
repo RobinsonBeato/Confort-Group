@@ -5,7 +5,7 @@ import MainSection from '../components/MainSection'
 
 import Stats from '../components/Stats'
 import About from '../components/About'
-import WhatsApp from '../components/WhatsApp'
+
 import Contact from '../components/Contact'
 import ImageCarousel from '../components/ImageCarousel'
 import Accordion from '../components/Accordion'
@@ -21,7 +21,7 @@ function Home() {
 
     return (
         <>
-            <WhatsApp />
+            
             <MainSection />
             <Stats />
             <Centros />

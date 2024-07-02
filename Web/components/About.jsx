@@ -33,11 +33,11 @@ const About = () => {
                         ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
                     </p>
 
-                    <div className="btn-group">
+                    {/* <div className="btn-group">
                         <button className="btn btn-secondary">Hire me</button>
 
                         <button className="btn btn-primary">Download cv</button>
-                    </div>
+                    </div> */}
 
                 </div>
 

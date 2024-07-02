@@ -58,9 +58,9 @@ function ResidencialRenacer() {
           </p>
           
           <div className="btn-group">
-                  <a href="#contact"  className="btn btn-secondary">Hablemos</a>
+                  <a href="#contact" style={{width: '250px', marginLeft: '80px'}} className="btn btn-secondary ">Hablemos</a>
 
-                  <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+                  <Link to="/centros" style={{width: '250px' , marginLeft: '80px'}} className="btn btn-primary ">Ver más Centros</Link>
           </div>
 
         </div>

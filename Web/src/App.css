@@ -76,7 +76,7 @@
 
 
 
-body.light_theme {
+body {
 
   --bg-primary: hsl(0, 0%, 90%);
   --bg-secondary: hsl(0, 0%, 100%);

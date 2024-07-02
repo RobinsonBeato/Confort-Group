@@ -25,7 +25,7 @@ const Centros = () => {
 
 
                         <figure className="card-banner">
-                            <img src="./assets/images/project-1.png" className="w-100" alt="A macintosh on a yellow background." />
+                            <img src="./assets/images/r1.jpeg" className="w-100" alt="A macintosh on a yellow background." />
                         </figure>
 
                         <div className="card-content">
@@ -41,7 +41,7 @@ const Centros = () => {
                     <Link to="/residencial-gala" className="project-card" >
 
                         <figure className="card-banner">
-                            <img src="./assets/images/project-2.png" className="w-100" alt="On a Blue background, a Wacom and a mouse." />
+                            <img src="./assets/images/r2.jpeg" className="w-100" alt="On a Blue background, a Wacom and a mouse." />
                         </figure>
 
                         <div className="card-content">
@@ -57,7 +57,7 @@ const Centros = () => {
                     <Link to="/residencial-monaco" className="project-card" >  
 
                         <figure className="card-banner">
-                            <img src="./assets/images/project-3.png" className="w-100"
+                            <img src="./assets/images/r3.jpeg" className="w-100"
                                 alt="A Cassette tape on a mellow apricot background." />
                         </figure>
 
