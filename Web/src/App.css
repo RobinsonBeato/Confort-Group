@@ -1166,8 +1166,57 @@ textarea.input-field {
   transform: translateY(0);
 }
 
+/*-----------------------------------*\
+ * FEATURES LIST
+\*-----------------------------------*/
+
+/* FeaturesList.css */
+.features-list {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+}
+
+.feature-item .icon {
+  
+  margin-left: 20px;
+  margin-right: 20px;
+  filter: invert(1)
+}
+
+.feature-item .icon i {
+ 
+  font-size: 1.5em;
+}
 
 
+
+.feature-item .text {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .feature-item {
+      font-size: 0.9em;
+  }
+  
+  
+}
 
 
 /*-----------------------------------*\

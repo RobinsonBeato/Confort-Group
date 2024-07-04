@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import FeaturesList from '../components/FueaturesList';
 
 function ResidencialRenacer() {
   const settings = {
@@ -84,6 +85,7 @@ function ResidencialRenacer() {
           </div>
         </Slider>
       </div>
+      <FeaturesList residencialNames="Gala" />
       <div>
         <section className="contact margin" id="contact">
 
