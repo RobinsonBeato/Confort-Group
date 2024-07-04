@@ -21,7 +21,7 @@ const Centros = () => {
                 </li>
 
                 <li>
-                    <Link to="/residencial-renacer" className="project-card" >
+                    <div className="project-card" >
 
 
                         <figure className="card-banner">
@@ -34,11 +34,11 @@ const Centros = () => {
 
                         </div>
 
-                    </Link>
+                    </div>
                 </li>
 
                 <li>
-                    <Link to="/residencial-gala" className="project-card" >
+                    <div className="project-card" >
 
                         <figure className="card-banner">
                             <img src="./assets/images/r2.jpeg" className="w-100" alt="On a Blue background, a Wacom and a mouse." />
@@ -50,11 +50,11 @@ const Centros = () => {
 
                         </div>
 
-                    </Link>
+                    </div>
                 </li>
 
                 <li>
-                    <Link to="/residencial-monaco" className="project-card" >
+                    <div className="project-card" >
 
                         <figure className="card-banner">
                             <img src="./assets/images/r3.jpeg" className="w-100"
@@ -67,7 +67,7 @@ const Centros = () => {
 
                         </div>
 
-                    </Link>
+                    </div>
                 </li>
 
 
