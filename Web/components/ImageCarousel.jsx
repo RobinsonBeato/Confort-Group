@@ -43,18 +43,18 @@ const ImageCarousel = () => {
   return (
     <div className="carousel-container">
       <Slider {...settings}>
-        <div>
-          <img src="./assets/images/test1.jpeg" alt="Image 1" />
-        </div>
-        <div>
-          <img src="./assets/images/test1.jpeg" alt="Image 2" />
-        </div>
-        <div>
-          <img src="./assets/images/test1.jpeg" alt="Image 3" />
-        </div>
-        <div>
-          <img src="./assets/images/test1.jpeg" alt="Image 4" />
-        </div>
+      <div>
+            <img src="./assets/images/renacer1.webp" alt="Residencial Renacer Sayago entrada" />
+          </div>
+          <div>
+            <img src="./assets/images/renacer2.webp" alt="Residencial Renacer Sayago cuartos" />
+          </div>
+          <div>
+            <img src="./assets/images/renacer3.webp" alt="Residencial Renacer Sayago sala" />
+          </div>
+          <div>
+            <img src="./assets/images/renacer4.webp" alt="Residencial Renacer Sayago jardin exterior" />
+          </div>
       </Slider>
     </div>
   );

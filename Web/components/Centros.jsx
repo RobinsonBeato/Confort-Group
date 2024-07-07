@@ -25,7 +25,7 @@ const Centros = () => {
 
 
                         <figure className="card-banner">
-                            <img src="./assets/images/r1.jpeg" className="w-100" alt="A macintosh on a yellow background." />
+                            <img src="./assets/images/renacer1.webp" className="w-100" alt="A macintosh on a yellow background." />
                         </figure>
                         <Link to="/residencial-renacer" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '40', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
                         <div className="card-content">
