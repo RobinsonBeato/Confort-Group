@@ -5,6 +5,7 @@ import MainSection from '../components/MainSection'
 
 import Stats from '../components/Stats'
 import About from '../components/About'
+import Rates from '../components/Rates'
 
 import Contact from '../components/Contact'
 import ImageCarousel from '../components/ImageCarousel'
@@ -27,6 +28,7 @@ function Home() {
             <Centros />
             <About />
             <ImageCarousel />
+            <Rates/>
             <Contact />
         </>
     )
