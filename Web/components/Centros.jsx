@@ -27,7 +27,7 @@ const Centros = () => {
                         <figure className="card-banner">
                             <img src="./assets/images/renacer1.webp" className="w-100" alt="A macintosh on a yellow background." />
                         </figure>
-                        <Link to="/residencial-renacer" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '40', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
+                        <Link to="/residencial-renacer" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '2', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
                         <div className="card-content">
                             <h3 className="h4 card-title">Residencial Renacer</h3>
 
@@ -43,7 +43,7 @@ const Centros = () => {
                         <figure className="card-banner">
                             <img src="./assets/images/r2.jpeg" className="w-100" alt="On a Blue background, a Wacom and a mouse." />
                         </figure>
-                        <Link to="/residencial-gala" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '40', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
+                        <Link to="/residencial-gala" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '2', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
                         <div className="card-content">
                             <h3 className="h4 card-title">Residencial Gala</h3>
 
@@ -60,7 +60,7 @@ const Centros = () => {
                             <img src="./assets/images/r3.jpeg" className="w-100"
                                 alt="A Cassette tape on a mellow apricot background." />
                         </figure>
-                        <Link to="/residencial-monaco" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '40', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
+                        <Link to="/residencial-monaco" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '2', color: 'white', border: '1px solid white', borderRadius: '10px' }} className="btn btn-primary ">Conocer</Link>
                         <div className="card-content">
                             <h3 className="h4 card-title">Residencial Mónaco</h3>
 

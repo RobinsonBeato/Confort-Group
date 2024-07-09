@@ -3,15 +3,15 @@ const About = () => {
     const accordionItems = [
         {
             title: 'Misión',
-            content: 'Este es el contenido para el primer ítem del acordeón.'
+            content: 'Brindamos un lugar cálido donde el residente se sienta valorado, escuchado y parte de esta gran familia. Contamos con un equipo multidisciplinario enfocado en satisfacer las necesidades de nuestros residentes de forma constante y permanente.'
         },
         {
             title: 'Visión',
-            content: 'Este es el contenido para el segundo ítem del acordeón.'
+            content: 'Nuestro equipo de trabajo busca superarse día a día con el fin de brindar una atención integral, que otorgue el más amplio bienestar a nivel biológico, cognitivo, psico afectivo, vincular y motivacional.'
         },
         {
             title: 'Valores',
-            content: 'Este es el contenido para el tercer ítem del acordeón.'
+            content: 'Disciplina, compromiso y empatía'
         }
     ];
     return (

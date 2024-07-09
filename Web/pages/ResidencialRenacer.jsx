@@ -3,42 +3,37 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FeaturesList from '../components/FueaturesList';
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 function ResidencialRenacer() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+  const images = [
+    {
+      original: "./assets/images/renacer1.webp" ,
+      thumbnail: "./assets/images/renacer1.webp",
+    },
+    {
+      original: "./assets/images/renacer2.webp",
+      thumbnail: "./assets/images/renacer2.webp",
+    },
+    {
+      original: "./assets/images/renacer3.webp",
+      thumbnail: "./assets/images/renacer3.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+  ];
+  
   return (
     <>
       <section className="about" id="residencial-renacer">
@@ -69,22 +64,10 @@ function ResidencialRenacer() {
 
 
       </section>
-      <div className="carousel-container">
-        <Slider {...settings}>
-          <div>
-            <img src="./assets/images/renacer1.webp" alt="Residencial Renacer Sayago entrada" />
-          </div>
-          <div>
-            <img src="./assets/images/renacer2.webp" alt="Residencial Renacer Sayago cuartos" />
-          </div>
-          <div>
-            <img src="./assets/images/renacer3.webp" alt="Residencial Renacer Sayago sala" />
-          </div>
-          <div>
-            <img src="./assets/images/renacer4.webp" alt="Residencial Renacer Sayago jardin exterior" />
-          </div>
-        </Slider>
+      <div className="border margin">
+        <ImageGallery items={images} autoPlay={true} />
       </div>
+      
       <FeaturesList residencialNames="Renacer" />
       <div>
         <section className="contact margin" id="contact">
