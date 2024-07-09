@@ -9,7 +9,7 @@ import "react-image-gallery/styles/css/image-gallery.css";
 function ResidencialRenacer() {
   const images = [
     {
-      original: "./assets/images/renacer1.webp" ,
+      original: "./assets/images/renacer1.webp",
       thumbnail: "./assets/images/renacer1.webp",
     },
     {
@@ -33,7 +33,7 @@ function ResidencialRenacer() {
       thumbnail: "./assets/images/renacer4.webp",
     },
   ];
-  
+
   return (
     <>
       <section className="about" id="residencial-renacer">
@@ -54,9 +54,9 @@ function ResidencialRenacer() {
           </p>
 
           <div className="btn-group">
-                  <a href="#contact"  className="btn btn-secondary">Hablemos</a>
+            <a href="#contact" className="btn btn-secondary">Hablemos</a>
 
-                  <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+            <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
           </div>
 
         </div>
@@ -64,10 +64,26 @@ function ResidencialRenacer() {
 
 
       </section>
-      <div className="border margin">
-        <ImageGallery items={images} autoPlay={true} />
-      </div>
-      
+      <section className="about" id="residencial-renacer">
+
+
+
+        <div className="about-content section-content">
+
+          <p className="section-subtitle margin">Imágenes</p>
+
+          <h2 className="h3 section-title margin">Explora Nuestros Espacios </h2>
+
+          <p className="section-text margin">
+            En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestras instalaciones y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
+          </p>
+        </div>
+        <div className="carousel-card margin">
+          <ImageGallery items={images} autoPlay={true} />
+        </div>
+
+      </section>
+
       <FeaturesList residencialNames="Renacer" />
       <div>
         <section className="contact margin" id="contact">

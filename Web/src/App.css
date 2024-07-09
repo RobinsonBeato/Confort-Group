@@ -1,9 +1,7 @@
 .border {
   border-radius: var(--radius-12)
 }
-.carousel-card {
-  padding-block: var(--section-padding);
-}
+
 
 .carousel-list>li {
   margin-bottom: 25px;
@@ -33,8 +31,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100%;
-  padding: 20px;
+
 }
 
 /*-----------------------------------*\
@@ -94,7 +91,7 @@
    * spacing
    */
 
-  --section-padding: 80px;
+  --section-padding: 40px;
 
   /**
    * radius

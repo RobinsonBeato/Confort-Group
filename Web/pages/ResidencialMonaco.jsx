@@ -1,44 +1,37 @@
 import { Link } from 'react-router-dom';
-import Slider from 'react-slick';
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FeaturesList from '../components/FueaturesList';
 
 function ResidencialMonaco() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+ 
+  const images = [
+    {
+      original: "./assets/images/renacer1.webp",
+      thumbnail: "./assets/images/renacer1.webp",
+    },
+    {
+      original: "./assets/images/renacer2.webp",
+      thumbnail: "./assets/images/renacer2.webp",
+    },
+    {
+      original: "./assets/images/renacer3.webp",
+      thumbnail: "./assets/images/renacer3.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+  ];
   return (
     <>
       <section className="about" id="residencial-monaco">
@@ -69,22 +62,26 @@ function ResidencialMonaco() {
 
 
       </section>
-      <div className="carousel-container">
-        <Slider {...settings}>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 1" />
-          </div>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 2" />
-          </div>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 3" />
-          </div>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 4" />
-          </div>
-        </Slider>
-      </div>
+      <section className="about" id="residencial-renacer">
+
+
+
+        <div className="about-content section-content">
+
+          <p className="section-subtitle margin">Imágenes</p>
+
+          <h2 className="h3 section-title margin">Explora Nuestros Espacios </h2>
+
+          <p className="section-text margin">
+            En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestras instalaciones y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
+          </p>
+        </div>
+        <div className="carousel-card margin">
+          <ImageGallery items={images} autoPlay={true} />
+        </div>
+
+      </section>
+
       <FeaturesList residencialNames="Mónaco" />
       <div>
         <section className="contact margin" id="contact">

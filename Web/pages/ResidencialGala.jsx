@@ -5,40 +5,32 @@ import "slick-carousel/slick/slick-theme.css";
 import FeaturesList from '../components/FueaturesList';
 
 function ResidencialRenacer() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  };
+  const images = [
+    {
+      original: "./assets/images/renacer1.webp",
+      thumbnail: "./assets/images/renacer1.webp",
+    },
+    {
+      original: "./assets/images/renacer2.webp",
+      thumbnail: "./assets/images/renacer2.webp",
+    },
+    {
+      original: "./assets/images/renacer3.webp",
+      thumbnail: "./assets/images/renacer3.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+    {
+      original: "./assets/images/renacer4.webp",
+      thumbnail: "./assets/images/renacer4.webp",
+    },
+  ];
   return (
     <>
       <section className="about" id="residencial-gala">
@@ -57,11 +49,11 @@ function ResidencialRenacer() {
           <p className="section-text margin">
             ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
           </p>
-          
-          <div className="btn-group">
-                  <a href="#contact"  className="btn btn-secondary">Hablemos</a>
 
-                  <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+          <div className="btn-group">
+            <a href="#contact" className="btn btn-secondary">Hablemos</a>
+
+            <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
           </div>
 
         </div>
@@ -69,22 +61,26 @@ function ResidencialRenacer() {
 
 
       </section>
-      <div className="carousel-container">
-        <Slider {...settings}>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 1" />
-          </div>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 2" />
-          </div>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 3" />
-          </div>
-          <div>
-            <img src="./assets/images/test1.jpeg" alt="Image 4" />
-          </div>
-        </Slider>
-      </div>
+      <section className="about" id="residencial-renacer">
+
+
+
+        <div className="about-content section-content">
+
+          <p className="section-subtitle margin">Imágenes</p>
+
+          <h2 className="h3 section-title margin">Explora Nuestros Espacios </h2>
+
+          <p className="section-text margin">
+            En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestras instalaciones y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
+          </p>
+        </div>
+        <div className="carousel-card margin">
+          <ImageGallery items={images} autoPlay={true} />
+        </div>
+
+      </section>
+
       <FeaturesList residencialNames="Gala" />
       <div>
         <section className="contact margin" id="contact">
@@ -178,7 +174,7 @@ function ResidencialRenacer() {
                     </a>
                   </li>
 
-                 
+
 
                 </ul>
               </li>
@@ -187,12 +183,12 @@ function ResidencialRenacer() {
 
           </div>
 
-       
-          
-          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.7641041869124!2d-56.14039232491447!3d-34.8872694728539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80e042c128bb%3A0x43bfb28d4e7aa021!2sResidencial%20GALA!5e0!3m2!1ses!2suy!4v1719932139418!5m2!1ses!2suy" width="100%" height="100%"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>  
+
+
+          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.7641041869124!2d-56.14039232491447!3d-34.8872694728539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80e042c128bb%3A0x43bfb28d4e7aa021!2sResidencial%20GALA!5e0!3m2!1ses!2suy!4v1719932139418!5m2!1ses!2suy" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
         </section>
-        
+
       </div>
     </>
   )
