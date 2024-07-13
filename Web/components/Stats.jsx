@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Stats = () => {
 
   return (
@@ -21,7 +23,7 @@ const Stats = () => {
         </li>
 
         <li>
-          <a href="#" className="stats-card">
+          <Link to="/servicios" className="stats-card">
 
             <div className="card-icon">
               <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon" />
@@ -33,7 +35,7 @@ const Stats = () => {
 
             <ion-icon name="chevron-forward-outline"></ion-icon>
 
-          </a>
+          </Link>
         </li>
 
         <li>

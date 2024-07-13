@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FeaturesList from '../components/FueaturesList';
+import ImageGallery from "react-image-gallery";
 
 function ResidencialRenacer() {
   const images = [

@@ -93,7 +93,7 @@ const Header = () => {
               <li><Link to="/" className="navbar-link" onClick={handleNavLinkClick}>Inicio</Link></li>
               <li><Link to="/about" className="navbar-link" onClick={handleNavLinkClick}>Sobre Nosotros</Link></li>
               <li><Link to="/centros" className="navbar-link" onClick={handleNavLinkClick}>Centros</Link></li>
-              <li><Link to="/PageTest" className="navbar-link" onClick={handleNavLinkClick}>Servicios</Link></li>
+              <li><Link to="/servicios" className="navbar-link" onClick={handleNavLinkClick}>Servicios</Link></li>
               {/* <li><a href="#portfolio" className="navbar-link">Portfolio</a></li> */}
               <li><Link to="/contact" className="navbar-link" onClick={handleNavLinkClick}>Contacto</Link></li>
             </ul>
