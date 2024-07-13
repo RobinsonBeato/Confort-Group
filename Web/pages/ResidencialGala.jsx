@@ -108,7 +108,7 @@ function ResidencialRenacer() {
                   <h3 className="h4 contact-item-title">Dirección</h3>
 
                   <address style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', }} className="contact-info">
-                    941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                    Dr. Hugo Antuña 3514
                   </address>
 
                 </div>
@@ -125,9 +125,9 @@ function ResidencialRenacer() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Teléfono:</h3>
 
-                  <a href="tel:01234567789" className="contact-info">(01) 234 567 789</a>
+                  <a href="tel:+598094666352" className="contact-info">(+598) 094 666 352</a>
 
-                  <a href="tel:09765432200" className="contact-info">(09) 765 432 200</a>
+                  <a href="tel:+598094942434" className="contact-info">(+598) 094 942 434</a>
                 </div>
 
               </li>
@@ -141,9 +141,7 @@ function ResidencialRenacer() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Email:</h3>
 
-                  <a href="mailto:info@jack.com" className="contact-info">info@jack.com</a>
-
-                  <a href="mailto:support@jack.com" className="contact-info">support@jack.com</a>
+                  <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
                 </div>
 
               </li>
@@ -152,7 +150,7 @@ function ResidencialRenacer() {
                 <ul className="contac-social-list">
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://www.facebook.com/residencial.gala" className="contact-social-link">
                       <div className="tooltip">Facebook</div>
 
                       <ion-icon name="logo-facebook"></ion-icon>
@@ -168,7 +166,7 @@ function ResidencialRenacer() {
                   </li>
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://www.instagram.com/residencial_gala/" className="contact-social-link">
                       <div className="tooltip">Instagram</div>
 
                       <ion-icon name="logo-instagram"></ion-icon>
@@ -186,7 +184,7 @@ function ResidencialRenacer() {
 
 
 
-          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.7641041869124!2d-56.14039232491447!3d-34.8872694728539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80e042c128bb%3A0x43bfb28d4e7aa021!2sResidencial%20GALA!5e0!3m2!1ses!2suy!4v1719932139418!5m2!1ses!2suy" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.7610931151344!2d-56.14040672491449!3d-34.88734507285397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f80e0699245df%3A0xaecf76d91a051807!2sDr.%20Hugo%20Antu%C3%B1a%203514%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1720877914769!5m2!1ses!2suy" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
         </section>
 

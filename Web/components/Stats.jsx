@@ -14,7 +14,7 @@ const Stats = () => {
             </div>
 
             <h2 className="h2 card-title">
-              12+ <strong>De experiencia</strong>
+              10+ <strong>De experiencia</strong>
             </h2>
 
             <ion-icon name="chevron-forward-outline"></ion-icon>
@@ -30,7 +30,7 @@ const Stats = () => {
             </div>
 
             <h2 className="h2 card-title">
-              30+ <strong>Servicios de bienestar</strong>
+              15+ <strong>Servicios de bienestar</strong>
             </h2>
 
             <ion-icon name="chevron-forward-outline"></ion-icon>

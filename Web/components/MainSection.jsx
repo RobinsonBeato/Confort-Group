@@ -27,13 +27,13 @@ const MainSection = () => {
 
           <ul className="hero-social-list">
             <li>
-              <a href="#" className="hero-social-link">
+              <a href="https://www.facebook.com/profile.php?id=100063217932172" className="hero-social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
                 <div className="tooltip">Facebook</div>
               </a>
             </li>
             <li>
-              <a href="#" className="hero-social-link">
+              <a href="https://www.instagram.com/residencial.renacer/" className="hero-social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
                 <div className="tooltip">Instagram</div>
               </a>

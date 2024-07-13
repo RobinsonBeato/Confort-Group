@@ -110,7 +110,7 @@ function ResidencialRenacer() {
                   <h3 className="h4 contact-item-title">Dirección</h3>
 
                   <address style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', }} className="contact-info">
-                    941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                    Avenida Garzón 973
                   </address>
 
                 </div>
@@ -127,9 +127,9 @@ function ResidencialRenacer() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Teléfono:</h3>
 
-                  <a href="tel:01234567789" className="contact-info">(01) 234 567 789</a>
+                  <a href="tel:+598094666352" className="contact-info">(+598) 094 666 352</a>
 
-                  <a href="tel:09765432200" className="contact-info">(09) 765 432 200</a>
+                  <a href="tel:+598094942434" className="contact-info">(+598) 094 942 434</a>
                 </div>
 
               </li>
@@ -143,9 +143,9 @@ function ResidencialRenacer() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Email:</h3>
 
-                  <a href="mailto:info@jack.com" className="contact-info">info@jack.com</a>
+                  <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
 
-                  <a href="mailto:support@jack.com" className="contact-info">support@jack.com</a>
+                  
                 </div>
 
               </li>
@@ -154,7 +154,7 @@ function ResidencialRenacer() {
                 <ul className="contac-social-list">
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://www.facebook.com/profile.php?id=100063217932172" className="contact-social-link">
                       <div className="tooltip">Facebook</div>
 
                       <ion-icon name="logo-facebook"></ion-icon>
@@ -170,7 +170,7 @@ function ResidencialRenacer() {
                   </li>
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://www.instagram.com/residencial.renacer/" className="contact-social-link">
                       <div className="tooltip">Instagram</div>
 
                       <ion-icon name="logo-instagram"></ion-icon>

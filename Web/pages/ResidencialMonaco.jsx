@@ -6,7 +6,7 @@ import FeaturesList from '../components/FueaturesList';
 import ImageGallery from "react-image-gallery";
 
 function ResidencialMonaco() {
- 
+
   const images = [
     {
       original: "./assets/images/renacer1.webp",
@@ -51,11 +51,11 @@ function ResidencialMonaco() {
           <p className="section-text margin">
             ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
           </p>
-          
-          <div className="btn-group">
-                  <a href="#contact"  className="btn btn-secondary">Hablemos</a>
 
-                  <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+          <div className="btn-group">
+            <a href="#contact" className="btn btn-secondary">Hablemos</a>
+
+            <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
           </div>
 
         </div>
@@ -109,7 +109,7 @@ function ResidencialMonaco() {
                   <h3 className="h4 contact-item-title">Dirección</h3>
 
                   <address style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', }} className="contact-info">
-                    941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                    Bulevar Artigas 4189
                   </address>
 
                 </div>
@@ -126,9 +126,9 @@ function ResidencialMonaco() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Teléfono:</h3>
 
-                  <a href="tel:01234567789" className="contact-info">(01) 234 567 789</a>
+                  <a href="tel:+598094666352" className="contact-info">(+598) 094 666 352</a>
 
-                  <a href="tel:09765432200" className="contact-info">(09) 765 432 200</a>
+                  <a href="tel:+598094942434" className="contact-info">(+598) 094 942 434</a>
                 </div>
 
               </li>
@@ -142,9 +142,7 @@ function ResidencialMonaco() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Email:</h3>
 
-                  <a href="mailto:info@jack.com" className="contact-info">info@jack.com</a>
-
-                  <a href="mailto:support@jack.com" className="contact-info">support@jack.com</a>
+                  <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
                 </div>
 
               </li>
@@ -153,7 +151,7 @@ function ResidencialMonaco() {
                 <ul className="contac-social-list">
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://www.facebook.com/profile.php?id=61550605028616" className="contact-social-link">
                       <div className="tooltip">Facebook</div>
 
                       <ion-icon name="logo-facebook"></ion-icon>
@@ -169,14 +167,14 @@ function ResidencialMonaco() {
                   </li>
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://www.instagram.com/residencial__monaco/" className="contact-social-link">
                       <div className="tooltip">Instagram</div>
 
                       <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                   </li>
 
-                 
+
 
                 </ul>
               </li>
@@ -185,12 +183,12 @@ function ResidencialMonaco() {
 
           </div>
 
-       
-          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.9960365130923!2d-56.22325942491745!3d-34.83119217287351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a1d50044bf61fb%3A0x504b130faf518b44!2sResidencial%20renacer!5e0!3m2!1ses!2suy!4v1719747210811!5m2!1ses!2suy" width="100%" height="100%"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-            
+
+          <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.707801571634!2d-56.19915186831462!3d-34.87220392709374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f800693e789db%3A0x2e4907e80542eb6a!2sBv.%20Gral.%20Artigas%204189%2C%2011800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1720877605166!5m2!1ses!2suy" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          
 
         </section>
-        
+
       </div>
     </>
   )

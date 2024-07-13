@@ -25,7 +25,7 @@ const Contact = () => {
                             <h3 className="h4 contact-item-title">Dirección</h3>
 
                             <address style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', }} className="contact-info">
-                                941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                                Avenida Garzón 973
                             </address>
                            
                         </div>
@@ -42,9 +42,9 @@ const Contact = () => {
                         <div className="wrapper">
                             <h3 className="h4 contact-item-title">Teléfono:</h3>
 
-                            <a href="tel:01234567789" className="contact-info">(01) 234 567 789</a>
+                            <a href="tel:+598094666352" className="contact-info">(+598) 094 666 352</a>
 
-                            <a href="tel:09765432200" className="contact-info">(09) 765 432 200</a>
+                            <a href="tel:+598094942434" className="contact-info">(+598) 094 942 434</a>
                         </div>
 
                     </li>
@@ -58,9 +58,9 @@ const Contact = () => {
                         <div className="wrapper">
                             <h3 className="h4 contact-item-title">Email:</h3>
 
-                            <a href="mailto:info@jack.com" className="contact-info">info@jack.com</a>
+                            <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
 
-                            <a href="mailto:support@jack.com" className="contact-info">support@jack.com</a>
+                            <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
                         </div>
 
                     </li>
@@ -69,7 +69,7 @@ const Contact = () => {
                         <ul className="contac-social-list">
 
                             <li>
-                                <a href="#" className="contact-social-link">
+                                <a href="https://www.facebook.com/profile.php?id=100063217932172" className="contact-social-link">
                                     <div className="tooltip">Facebook</div>
 
                                     <ion-icon name="logo-facebook"></ion-icon>
@@ -93,11 +93,10 @@ const Contact = () => {
                             </li>
 
                             <li>
-                                <a href="#" className="contact-social-link">
-                                    <div className="tooltip">Youtube</div>
+                                <a href="https://www.instagram.com/residencial.renacer/" className="contact-social-link">
+                                    <div className="tooltip">Instagram</div>
 
-                                    <ion-icon name="logo-instagram
-                                    "></ion-icon>
+                                    <ion-icon name="logo-instagram"></ion-icon>
                                 </a>
                             </li>
 
@@ -112,11 +111,11 @@ const Contact = () => {
 
                 <div className="form-wrapper">
 
-                    <label htmlFor="name" className="form-label">Name</label>
+                    <label htmlFor="name" className="form-label">Nombre</label>
 
                     <div className="input-wrapper">
 
-                        <input type="text" name="name" id="name" required placeholder="e.g John Doe" className="input-field"/>
+                        <input type="text" name="name" id="name" required placeholder="Nombre Completo" className="input-field"/>
 
                             <ion-icon name="person-circle"></ion-icon>
 
@@ -130,7 +129,7 @@ const Contact = () => {
 
                     <div className="input-wrapper">
 
-                        <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                        <input type="email" name="email" id="email" required placeholder="ejemplo@gmail.com"
                             className="input-field"/>
 
                             <ion-icon name="mail"></ion-icon>
@@ -141,11 +140,11 @@ const Contact = () => {
 
                 <div className="form-wrapper">
 
-                    <label htmlFor="phone" className="form-label">Phone</label>
+                    <label htmlFor="phone" className="form-label">Teléfono</label>
 
                     <div className="input-wrapper">
 
-                        <input type="tel" name="phone" id="phone" required placeholder="Phone Number" className="input-field"/>
+                        <input type="tel" name="phone" id="phone" required placeholder="Número de Teléfono" className="input-field"/>
 
                             <ion-icon name="call"></ion-icon>
 
@@ -155,11 +154,11 @@ const Contact = () => {
 
                 <div className="form-wrapper">
 
-                    <label htmlFor="message" className="form-label">Message</label>
+                    <label htmlFor="message" className="form-label">Mensaje</label>
 
                     <div className="input-wrapper">
 
-                        <textarea name="message" id="message" required placeholder="Write message..."
+                        <textarea name="message" id="message" required placeholder="Escriba su consulta..."
                             className="input-field"></textarea>
 
                         <ion-icon name="chatbubbles"></ion-icon>
@@ -168,7 +167,7 @@ const Contact = () => {
 
                 </div>
 
-                <button type="submit" className="btn btn-primary">Send</button>
+                <button type="submit" className="btn btn-primary">Enviar</button>
 
             </form>
 
