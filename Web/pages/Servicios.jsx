@@ -62,7 +62,7 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s1.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Taller de Estimulación Cognitiva</h3>
@@ -86,7 +86,7 @@ function Servicios() {
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
-                  <h3 style={{ paddingLeft: "10px" }} >Fisioterapia</h3>
+                  <h3 style={{ paddingLeft: "10px" }} >Pilates </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
                     Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
                   </p>
@@ -98,6 +98,175 @@ function Servicios() {
 
 
             </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s5.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Talleres de música  </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Servicios de psicóloga   </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Psicomotricusta    </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Laborterapia     </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Huerta y lectura    </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Reflexologia     </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Podóloga      </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            <li>
+              <div className="project-card" >
+
+
+                <figure className="card-banner">
+                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                </figure>
+
+                <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
+                  <h3 style={{ paddingLeft: "10px" }} >Peluquería       </h3>
+                  <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
+                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  </p>
+
+
+                </div>
+
+              </div>
+
+
+            </li>
+            
             <li>
               <div className="project-card" >
 
