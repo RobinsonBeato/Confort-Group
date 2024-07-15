@@ -67,7 +67,7 @@ function Servicios() {
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Taller de Estimulación Cognitiva</h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Actividades personalizadas para mantener y mejorar las capacidades cognitivas, guiadas por la psicóloga Luciana Peláez.
                   </p>
 
 
@@ -82,13 +82,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s6.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Pilates </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                    Clases de Pilates para fortalecer el cuerpo y mejorar la flexibilidad y el equilibrio.
                   </p>
 
 
@@ -109,7 +109,7 @@ function Servicios() {
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Talleres de música  </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    
+                    Sesiones interactivas para disfrutar de la música, aprender y participar en actividades musicales.
                   </p>
 
 
@@ -124,13 +124,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s11.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Servicios de psicóloga   </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Apoyo psicológico y emocional para nuestros residentes, con sesiones personalizadas.
                   </p>
 
 
@@ -145,13 +145,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s8.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Psicomotricusta    </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Intervenciones terapéuticas para mejorar la coordinación y el control motor a través de actividades físicas y sensoriales
                   </p>
 
 
@@ -166,13 +166,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s7.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Laborterapia     </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Actividades terapéuticas que fomentan la creatividad y la autonomía, promoviendo el bienestar mental y emocional.
                   </p>
 
 
@@ -187,13 +187,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s10.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Huerta y lectura    </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Espacios para la jardinería y sesiones de lectura, fomentando la conexión con la naturaleza y la cultura.
                   </p>
 
 
@@ -208,13 +208,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s12.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Reflexologia     </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Terapia de masaje en los pies que mejora la circulación y alivia el estrés.
                   </p>
 
 
@@ -229,13 +229,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s20.webp" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Podóloga      </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Cuidado especializado de los pies para mantener la salud podológica de nuestros residentes.
                   </p>
 
 
@@ -250,13 +250,13 @@ function Servicios() {
 
 
                 <figure className="card-banner">
-                  <img src="./assets/images/s2.jpg" className="w-100" alt="A macintosh on a yellow background." />
+                  <img src="./assets/images/s21.jpg" className="w-100" alt="A macintosh on a yellow background." />
                 </figure>
 
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} >Peluquería       </h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    Le damos mucha importancia a la actividad física. Por eso Daniela, nuestra profesora, nos acompaña dos veces a la semana con su actividad.
+                  Servicios de peluquería para mantener una apariencia cuidada y aumentar la autoestima.
                   </p>
 
 
@@ -266,7 +266,7 @@ function Servicios() {
 
 
             </li>
-            
+
             <li>
               <div className="project-card" >
 
@@ -297,7 +297,7 @@ function Servicios() {
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} > Taller de Gimnasia</h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    sidugfdiuv
+                    Ejercicios diseñados para mejorar la movilidad y el bienestar físico de nuestros residentes.
                   </p>
 
 

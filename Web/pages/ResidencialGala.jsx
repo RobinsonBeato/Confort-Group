@@ -8,28 +8,62 @@ import ImageGallery from "react-image-gallery";
 function ResidencialRenacer() {
   const images = [
     {
-      original: "./assets/images/renacer1.webp",
-      thumbnail: "./assets/images/renacer1.webp",
+      original: "./assets/images/g1.webp",
+      thumbnail: "./assets/images/g1.webp",
     },
     {
-      original: "./assets/images/renacer2.webp",
-      thumbnail: "./assets/images/renacer2.webp",
+      original: "./assets/images/g2.webp",
+      thumbnail: "./assets/images/g2.webp",
     },
     {
-      original: "./assets/images/renacer3.webp",
-      thumbnail: "./assets/images/renacer3.webp",
+      original: "./assets/images/g3.webp",
+      thumbnail: "./assets/images/g3.webp",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/g4.webp",
+      thumbnail: "./assets/images/g4.webp",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/g5.webp",
+      thumbnail: "./assets/images/g5.webp",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/g7.webp",
+      thumbnail: "./assets/images/g7.webp",
+    },
+    {
+      original: "./assets/images/g8.webp",
+      thumbnail: "./assets/images/g8.webp",
+    },
+    {
+      original: "./assets/images/g9.webp",
+      thumbnail: "./assets/images/g9.webp",
+    },
+    {
+      original: "./assets/images/g10.webp",
+      thumbnail: "./assets/images/g10.webp",
+    },
+    {
+      original: "./assets/images/g11.webp",
+      thumbnail: "./assets/images/g11.webp",
+    },
+    
+    {
+      original: "./assets/images/g6.webp",
+      thumbnail: "./assets/images/g6.webp",
+    },
+   
+    {
+      original: "./assets/images/g14.webp",
+      thumbnail: "./assets/images/g14.webp",
+    },
+    {
+      original: "./assets/images/g15.webp",
+      thumbnail: "./assets/images/g15.webp",
+    },
+    {
+      original: "./assets/images/g16.webp",
+      thumbnail: "./assets/images/g16.webp",
     },
   ];
   return (
