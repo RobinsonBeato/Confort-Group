@@ -278,7 +278,7 @@ function Servicios() {
                 <div style={{ width: '100%', position: 'absolute', bottom: '0px', zIndex: '2', color: "var(--primary)", paddingBlock: "10px", background: "var(--bg-primary", backdropFilter: " blur(100px)" }} >
                   <h3 style={{ paddingLeft: "10px" }} > Espacio de Socialización</h3>
                   <p style={{ paddingLeft: "10px", marginTop: "5px", color: "var(--color-secondary" }}>
-                    sidugfdiuv
+                  Nuestro espacio de socialización está diseñado para fomentar la interacción y el sentido de comunidad entre los residentes.
                   </p>
 
 

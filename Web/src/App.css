@@ -687,7 +687,13 @@ body.active {
 main {
   overflow-x: hidden;
 }
-
+@media (max-width: 500px) {
+  .hero-banner .hero-banner-img-sm {
+    width: 84%;
+    height: auto;
+    margin-left: 8%;
+  }
+}
 .hero {
   min-height: 100vh;
   display: flex;

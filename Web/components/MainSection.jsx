@@ -14,9 +14,9 @@ const MainSection = () => {
 
           <figure className="hero-banner">
             <picture>
-              <source srcSet="./assets/images/hero-banner.png" media="(min-width: 768px)" />
-              <source srcSet="./assets/images/hero-banner-md.png" media="(min-width: 500px)" />
-              <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression" className="w-100" />
+              <source  srcSet="./assets/images/hero-banner.png" media="(min-width: 768px)" />
+              <source  srcSet="./assets/images/hero-banner-md.png" media="(min-width: 500px)" />
+              <img  src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression" className="w-100  hero-banner-img-sm" />
             </picture>
           </figure>
 

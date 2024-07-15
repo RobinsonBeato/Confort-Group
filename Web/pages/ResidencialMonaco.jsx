@@ -9,28 +9,40 @@ function ResidencialMonaco() {
 
   const images = [
     {
-      original: "./assets/images/renacer1.webp",
-      thumbnail: "./assets/images/renacer1.webp",
+      original: "./assets/images/m2.webp",
+      thumbnail: "./assets/images/m2.webp",
     },
     {
-      original: "./assets/images/renacer2.webp",
-      thumbnail: "./assets/images/renacer2.webp",
+      original: "./assets/images/m3.webp",
+      thumbnail: "./assets/images/m3.webp",
     },
     {
-      original: "./assets/images/renacer3.webp",
-      thumbnail: "./assets/images/renacer3.webp",
+      original: "./assets/images/m4.webp",
+      thumbnail: "./assets/images/m4.webp",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/m5.webp",
+      thumbnail: "./assets/images/m5.webp",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/m6.webp",
+      thumbnail: "./assets/images/m6.webp",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/m7.webp",
+      thumbnail: "./assets/images/m7.webp",
+    },
+    {
+      original: "./assets/images/m8.webp",
+      thumbnail: "./assets/images/m8.webp",
+    },
+    {
+      original: "./assets/images/m9.webp",
+      thumbnail: "./assets/images/m9.webp",
+    },
+    {
+      original: "./assets/images/m10.webp",
+      thumbnail: "./assets/images/m10.webp",
     },
   ];
   return (
