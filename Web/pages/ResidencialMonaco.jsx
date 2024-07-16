@@ -90,7 +90,15 @@ function ResidencialMonaco() {
           </p>
         </div>
         <div className="carousel-card margin">
-          <ImageGallery items={images} autoPlay={true} />
+        <ImageGallery
+          items={images}
+          autoPlay={true}
+          renderItem={(item) => (
+            <div className="image-container">
+              <img src={item.original} alt="" />
+            </div>
+          )}
+        />
         </div>
 
       </section>

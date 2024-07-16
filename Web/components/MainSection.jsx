@@ -16,13 +16,15 @@ const MainSection = () => {
             <picture>
               <source  srcSet="./assets/images/hero-banner.png" media="(min-width: 768px)" />
               <source  srcSet="./assets/images/hero-banner-md.png" media="(min-width: 500px)" />
-              <img  src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression" className="w-100  hero-banner-img-sm" />
+              <img  src="./assets/images/hero-banner-sm.png" alt="Adulto mayor y enfermera, Residencial en Montevideo" className="w-100  hero-banner-img-sm" />
             </picture>
           </figure>
 
           <div className="hero-content">
-            <h2 className="h2 hero-title">Lorem impus veritas </h2>
-            <a href="#contact" className="btn btn-primary backdrop-blur-xl ">Hablemos</a>
+            <h2 className="h2 hero-title"> Confort Group Residenciales </h2>
+            
+            
+            <a href="#contact" style={{backdropFilter: 'blur(60px)'}} className="btn btn-primary backdrop-blur-2xl ">Hablemos</a>
           </div>
 
           <ul className="hero-social-list">
