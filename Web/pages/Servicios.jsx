@@ -58,7 +58,7 @@ function Servicios() {
             </li>
 
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -78,7 +78,7 @@ function Servicios() {
             </li>
 
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -99,7 +99,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -120,7 +120,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -141,7 +141,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -162,7 +162,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -183,7 +183,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -204,7 +204,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -225,7 +225,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -246,7 +246,7 @@ function Servicios() {
 
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -268,7 +268,7 @@ function Servicios() {
             </li>
 
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">
@@ -287,7 +287,7 @@ function Servicios() {
               </div>
             </li>
             <li>
-              <div className="project-card" >
+              <div className="project-card-services" >
 
 
                 <figure className="card-banner">

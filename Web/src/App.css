@@ -663,7 +663,7 @@ body.active {
 .navbar-link::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 90%;
   transform: translateY(-50%);
   left: 0;
   height: 5px;
@@ -939,6 +939,7 @@ main {
 
 .project-list>li {
   margin-bottom: 25px;
+  
 }
 
 .project-card {
@@ -946,6 +947,16 @@ main {
   overflow: hidden;
   border-radius: var(--radius-12);
   box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+  
+  
+}
+.project-card-services {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-12);
+  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+ 
+  
 }
 
 .project-card::after {
@@ -1547,6 +1558,7 @@ textarea.input-field {
 
   .section-content {
     position: relative;
+    height: 305px;
     padding-left: 40px;
   }
 
@@ -1612,7 +1624,8 @@ textarea.input-field {
   }
 
   .navbar-link::before {
-    height: 2px;
+    height: 3px;
+   
   }
 
 
