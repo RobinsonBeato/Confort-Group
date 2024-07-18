@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import FeaturesList from '../components/FueaturesList';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import RenacerLogo from '../components/RenacerLogo';
+
 
 function ResidencialRenacer() {
   const images = [
@@ -24,39 +26,69 @@ function ResidencialRenacer() {
       original: "./assets/images/renacer4.webp",
       thumbnail: "./assets/images/renacer4.webp",
     },
+    
+  ];
+  const imagesGallery = [
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/s8.jpg",
+      thumbnail: "./assets/images/s8.jpg",
     },
     {
-      original: "./assets/images/renacer4.webp",
-      thumbnail: "./assets/images/renacer4.webp",
+      original: "./assets/images/s2.jpg",
+      thumbnail: "./assets/images/s2.jpg",
+    },
+    {
+      original: "./assets/images/s3.jpg",
+      thumbnail: "./assets/images/s3.jpg",
+    },
+    {
+      original: "./assets/images/s4.jpg",
+      thumbnail: "./assets/images/s4.jpg",
+    },
+    {
+      original: "./assets/images/s5.jpg",
+      thumbnail: "./assets/images/s5.jpg",
+    },
+    {
+      original: "./assets/images/s6.jpg",
+      thumbnail: "./assets/images/s6.jpg",
     },
   ];
 
   return (
     <>
       <section className="about" id="residencial-renacer">
+        <div className="carousel-card margin">
+          
+          
+          <ImageGallery
+            items={images}
+            autoPlay={true}
+            renderItem={(item) => (
+              <div className="image-container">
+                <img src={item.original} alt="" />
+              </div>
+            )}
+          />
+        </div>
 
-        <figure className="about-banner">
-          <img src="./assets/images/about.png" alt="A man in a alice blue shirt with a thinking expression"
-            className="w-100" />
-        </figure>
+
+      
 
         <div className="about-content section-content">
 
           <p className="section-subtitle margin">Residencial Renacer</p>
 
-          <h2 className="h3 section-title margin">Reacer </h2>
+          <h2 className="h3 section-title margin">Renacer </h2>
 
           <p className="section-text margin">
             ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
           </p>
 
-          <div className="btn-group">
+          <div className="btn-group margin">
             <a href="#contact" className="btn btn-secondary">Hablemos</a>
 
-            <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
+            <Link to="/centros"  className="btn btn-primary  ">Ver más Centros</Link>
           </div>
 
         </div>
@@ -64,23 +96,24 @@ function ResidencialRenacer() {
 
 
       </section>
-      <section className="about" id="residencial-renacer">
+      <section className="about margin" id="residencial-renacer">
 
 
 
         <div className="about-content section-content">
 
-          <p className="section-subtitle margin">Imágenes</p>
+          <p className="section-subtitle ">Servicios</p>
 
-          <h2 className="h3 section-title margin">Explora Nuestros Espacios </h2>
+          <h2 className="h3 section-title ">Explora Nuestros Servicios </h2>
 
-          <p className="section-text margin">
-            En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestras instalaciones y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
+          <p className="section-text ">
+            En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestros servicios y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
           </p>
+          <Link to="/Servicios"style={{ marginTop: '10px' , marginBottom: '30px'}} className="btn btn-secondary ">Ver Servicios</Link>
         </div>
-        <div className="carousel-card margin">
+        <div className="carousel-card">
           <ImageGallery
-            items={images}
+            items={imagesGallery}
             autoPlay={true}
             renderItem={(item) => (
               <div className="image-container">

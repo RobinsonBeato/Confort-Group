@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import FeaturesList from '../components/FueaturesList';
 import ImageGallery from "react-image-gallery";
-
+import GalaLogo from '../components/GalaLogo';
 function ResidencialRenacer() {
   const images = [
     {
@@ -47,12 +47,12 @@ function ResidencialRenacer() {
       original: "./assets/images/g11.webp",
       thumbnail: "./assets/images/g11.webp",
     },
-    
+
     {
       original: "./assets/images/g6.webp",
       thumbnail: "./assets/images/g6.webp",
     },
-   
+
     {
       original: "./assets/images/g14.webp",
       thumbnail: "./assets/images/g14.webp",
@@ -66,14 +66,48 @@ function ResidencialRenacer() {
       thumbnail: "./assets/images/g16.webp",
     },
   ];
+  const imagesGallery = [
+    {
+      original: "./assets/images/s8.jpg",
+      thumbnail: "./assets/images/s8.jpg",
+    },
+    {
+      original: "./assets/images/s2.jpg",
+      thumbnail: "./assets/images/s2.jpg",
+    },
+    {
+      original: "./assets/images/s3.jpg",
+      thumbnail: "./assets/images/s3.jpg",
+    },
+    {
+      original: "./assets/images/s4.jpg",
+      thumbnail: "./assets/images/s4.jpg",
+    },
+    {
+      original: "./assets/images/s5.jpg",
+      thumbnail: "./assets/images/s5.jpg",
+    },
+    {
+      original: "./assets/images/s6.jpg",
+      thumbnail: "./assets/images/s6.jpg",
+    },
+  ];
   return (
     <>
       <section className="about" id="residencial-gala">
-
-        <figure className="about-banner">
-          <img src="./assets/images/about.png" alt="A man in a alice blue shirt with a thinking expression"
-            className="w-100" />
-        </figure>
+      
+      <div className="carousel-card margin">
+      
+          <ImageGallery
+            items={images}
+            autoPlay={true}
+            renderItem={(item) => (
+              <div className="image-container">
+                <img src={item.original} alt="" />
+              </div>
+            )}
+          />
+        </div>
 
         <div className="about-content section-content">
 
@@ -96,36 +130,39 @@ function ResidencialRenacer() {
 
 
       </section>
-      <section className="about" id="residencial-renacer">
+      <section className="about " id="residencial-renacer">
 
 
 
         <div className="about-content section-content">
 
-          <p className="section-subtitle margin">Imágenes</p>
+          <p className="section-subtitle margin">Servicios</p>
 
-          <h2 className="h3 section-title margin">Explora Nuestros Espacios </h2>
+
+          <h2 className="h3 section-title margin">Explora Nuestros Servicios </h2>
 
           <p className="section-text margin">
-            En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestras instalaciones y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
+            En Residencial Gala, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestros servicios y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
           </p>
+          <Link to="/Servicios" style={{ marginTop: '10px', marginBottom: '60px' }} className="btn btn-secondary ">Ver Servicios</Link>
+
         </div>
-        <div className="carousel-card margin">
-        <ImageGallery
-          items={images}
-          autoPlay={true}
-          renderItem={(item) => (
-            <div className="image-container">
-              <img src={item.original} alt="" />
-            </div>
-          )}
-        />
+        <div className="carousel-card margin ">
+          <ImageGallery
+            items={imagesGallery}
+            autoPlay={true}
+            renderItem={(item) => (
+              <div className="image-container">
+                <img src={item.original} alt="" />
+              </div>
+            )}
+          />
         </div>
 
       </section>
 
       <FeaturesList residencialNames="Gala" />
-      <div>
+      <div style={{ paddingBottom: '180px' }}>
         <section className="contact margin" id="contact">
 
           <div className="contact-content section-content">
