@@ -8,6 +8,10 @@ import GalaLogo from '../components/GalaLogo';
 function ResidencialRenacer() {
   const images = [
     {
+      original: "./assets/images/gala-banner.webp",
+      thumbnail: "./assets/images/gala-banner.webp",
+    },
+    {
       original: "./assets/images/g1.webp",
       thumbnail: "./assets/images/g1.webp",
     },
@@ -43,10 +47,7 @@ function ResidencialRenacer() {
       original: "./assets/images/g10.webp",
       thumbnail: "./assets/images/g10.webp",
     },
-    {
-      original: "./assets/images/g11.webp",
-      thumbnail: "./assets/images/g11.webp",
-    },
+
 
     {
       original: "./assets/images/g6.webp",
@@ -95,9 +96,9 @@ function ResidencialRenacer() {
   return (
     <>
       <section className="about" id="residencial-gala">
-      
-      <div className="carousel-card margin">
-      
+
+        <div style={{ marginBottom: "20px" }} className="carousel-card margin">
+
           <ImageGallery
             items={images}
             autoPlay={true}
@@ -116,10 +117,14 @@ function ResidencialRenacer() {
           <h2 className="h3 section-title margin">Gala </h2>
 
           <p className="section-text margin">
-            ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
+            Residencial Gala, ubicado en Dr. Hugo Antuña 3514, es una cálida residencia para adultos mayores en Montevideo, estratégicamente situada a pasos de Avenida Italia y Propios. Ofrecemos habitaciones individuales y compartidas, equipadas con TV LED y cable. Los espacios comunes cuentan con aire acondicionado, TV LED de 50” y sillones recliners. La casa dispone de dos livings.
+
+            Nuestro equipo multidisciplinario, encabezado por un médico geriatra, incluye enfermería y psicóloga. Además, ofrecemos actividades semanales como música, pilates, reflexología y gimnasia. Contamos con una cocinera que prepara menús saludables y balanceados según las necesidades calóricas de los residentes.
+
+            La residencia es coordinada por una licenciada en psicología especializada en salud, quien se encargará de gran parte del trato durante la estadía.
           </p>
 
-          <div className="btn-group">
+          <div className="btn-group margin">
             <a href="#contact" className="btn btn-secondary">Hablemos</a>
 
             <Link to="/centros" className="btn btn-primary">Ver más Centros</Link>
@@ -134,17 +139,17 @@ function ResidencialRenacer() {
 
 
 
-        <div className="about-content section-content">
+        <div className="about-content section-content margin">
 
-          <p className="section-subtitle margin">Servicios</p>
+          <p className="section-subtitle">Servicios</p>
 
 
-          <h2 className="h3 section-title margin">Explora Nuestros Servicios </h2>
+          <h2 className="h3 section-title ">Explora Nuestros Servicios </h2>
 
-          <p className="section-text margin">
+          <p className="section-text ">
             En Residencial Gala, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestros servicios y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
           </p>
-          <Link to="/Servicios" style={{ marginTop: '10px', marginBottom: '60px' }} className="btn btn-secondary ">Ver Servicios</Link>
+          <Link to="/Servicios" style={{ marginTop: '10px', marginBottom: '60px' }} className="btn btn-secondary  ">Ver Servicios</Link>
 
         </div>
         <div className="carousel-card margin ">

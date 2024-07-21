@@ -21,7 +21,7 @@ const MainSection = () => {
           </figure>
 
           <div className="hero-content">
-            <h2 className="h2 hero-title"> Confort Group Residenciales </h2>
+            <h2 style={{color: "var(--color-primary)"}} className="h2 hero-title"> Confort Group Residenciales </h2>
             
             
             <a href="#contact" style={{backdropFilter: 'blur(60px)'}} className="btn btn-primary backdrop-blur-2xl ">Hablemos</a>

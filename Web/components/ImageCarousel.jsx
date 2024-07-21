@@ -8,8 +8,8 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: "./assets/images/renacer1.webp",
-    thumbnail: "./assets/images/renacer1.webp",
+    original: "./assets/images/renacer-banner.webp",
+    thumbnail: "./assets/images/renacer-banner.webp",
   },
   {
     original: "./assets/images/renacer2.webp",

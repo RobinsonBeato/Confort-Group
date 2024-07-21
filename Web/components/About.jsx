@@ -11,7 +11,7 @@ const About = () => {
         },
         {
             title: 'Valores',
-            content: 'Disciplina, compromiso y empatía'
+            content: 'Empatía, compromiso y disciplina'
         }
     ];
     return (

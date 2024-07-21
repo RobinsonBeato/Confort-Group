@@ -11,8 +11,8 @@ import RenacerLogo from '../components/RenacerLogo';
 function ResidencialRenacer() {
   const images = [
     {
-      original: "./assets/images/renacer1.webp",
-      thumbnail: "./assets/images/renacer1.webp",
+      original: "./assets/images/renacer-banner.webp",
+      thumbnail: "./assets/images/renacer-banner.webp",
     },
     {
       original: "./assets/images/renacer2.webp",
@@ -26,7 +26,7 @@ function ResidencialRenacer() {
       original: "./assets/images/renacer4.webp",
       thumbnail: "./assets/images/renacer4.webp",
     },
-    
+
   ];
   const imagesGallery = [
     {
@@ -57,10 +57,10 @@ function ResidencialRenacer() {
 
   return (
     <>
-      <section className="about" id="residencial-renacer">
-        <div className="carousel-card margin">
-          
-          
+      <section className="about  " id="residencial-renacer">
+        <div style={{ marginBottom: "20px", }} className="carousel-card margin ">
+
+
           <ImageGallery
             items={images}
             autoPlay={true}
@@ -73,7 +73,7 @@ function ResidencialRenacer() {
         </div>
 
 
-      
+
 
         <div className="about-content section-content">
 
@@ -82,13 +82,14 @@ function ResidencialRenacer() {
           <h2 className="h3 section-title margin">Renacer </h2>
 
           <p className="section-text margin">
-            ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
+            Residencial Renacer, ubicado en Avenida Garzón 973, está especializado en el cuidado de adultos mayores en Montevideo. Nuestro predio de 3000 mts² incluye un hermoso parque natural de 2000 mts². Ofrecemos habitaciones individuales y compartidas, equipadas con aire acondicionado, TV LED y frigobar. Los espacios comunes son amplios, con aire acondicionado, TV LED de 55” y sillones recliners. La casa cuenta con dos comedores y dos livings, con grandes ventanales que brindan luz natural, y ocho baños de uso exclusivo.
+            Nuestro equipo multidisciplinario se dedica a proporcionar un ambiente seguro y confortable para nuestros residentes, garantizando atención de calidad y bienestar. Nos comprometemos a ofrecer soluciones innovadoras y efectivas para el cuidado integral de los adultos mayores, adaptándonos continuamente a sus necesidades cambiantes.
           </p>
 
           <div className="btn-group margin">
             <a href="#contact" className="btn btn-secondary">Hablemos</a>
 
-            <Link to="/centros"  className="btn btn-primary  ">Ver más Centros</Link>
+            <Link to="/centros" className="btn btn-primary  ">Ver más Centros</Link>
           </div>
 
         </div>
@@ -109,7 +110,7 @@ function ResidencialRenacer() {
           <p className="section-text ">
             En Residencial Renacer, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestros servicios y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
           </p>
-          <Link to="/Servicios"style={{ marginTop: '10px' , marginBottom: '30px'}} className="btn btn-secondary ">Ver Servicios</Link>
+          <Link to="/Servicios" style={{ marginTop: '10px', marginBottom: '30px' }} className="btn btn-secondary ">Ver Servicios</Link>
         </div>
         <div className="carousel-card">
           <ImageGallery

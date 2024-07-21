@@ -10,6 +10,10 @@ function ResidencialMonaco() {
 
   const images = [
     {
+      original: "./assets/images/monaco-banner.webp",
+      thumbnail: "./assets/images/monaco-banner.webp",
+    },
+    {
       original: "./assets/images/m2.webp",
       thumbnail: "./assets/images/m2.webp",
     },
@@ -76,9 +80,9 @@ function ResidencialMonaco() {
     <>
       <section className="about" id="residencial-monaco">
 
-      <div className="carousel-card margin">
-          
-          
+        <div style={{ marginBottom: "20px" }} className="carousel-card margin">
+
+
           <ImageGallery
             items={images}
             autoPlay={true}
@@ -97,7 +101,9 @@ function ResidencialMonaco() {
           <h2 className="h3 section-title margin">Mónaco </h2>
 
           <p className="section-text margin">
-            ¡Hola! Somos Confort-Group, un grupo dedicado al cuidado de adultos mayores en Montevideo, con más de tres residenciales. Nos apasiona proporcionar un ambiente seguro y confortable para nuestros residentes, asegurando atención de calidad y bienestar. Estamos comprometidos en ofrecer soluciones creativas y efectivas para el cuidado integral de los adultos mayores, adaptándonos constantemente para satisfacer sus necesidades cambiantes.
+            Residencial Mónaco, situado en Bulevar Artigas 4189, ofrece un entorno lujoso y acogedor en el corazón del Prado. Con cupos limitados para 10 residentes, contamos con habitaciones individuales y dobles, todas equipadas con aire acondicionado, TV por cable y frigobar. Los espacios comunes son amplios, con TV LED de 55”, aire acondicionado y sillones recliners.
+
+            Nuestro equipo multidisciplinario se dedica a proporcionar un ambiente seguro y confortable para nuestros residentes, garantizando atención de calidad y bienestar. Nos comprometemos a ofrecer soluciones innovadoras y efectivas para el cuidado integral de los adultos mayores, adaptándonos continuamente a sus necesidades cambiantes.
           </p>
 
           <div className="btn-group margin">
@@ -115,35 +121,35 @@ function ResidencialMonaco() {
 
 
 
-        <div className="about-content section-content">
+        <div className="about-content section-content ">
 
-          <p className="section-subtitle margin">Servicios</p>
+          <p className="section-subtitle">Servicios</p>
 
-          
-          <h2 className="h3 section-title margin">Explora Nuestros Servicios </h2>
 
-          <p className="section-text margin">
+          <h2 className="h3 section-title ">Explora Nuestros Servicios </h2>
+
+          <p className="section-text ">
             En Residencial Mónaco, creamos entornos cálidos y confortables para garantizar el bienestar y la tranquilidad de nuestros residentes. Descubre nuestros servicios y explora los espacios que convierten nuestro hogar en un lugar verdaderamente especial para vivir.
           </p>
-          <Link to="/Servicios"style={{ marginTop: '10px' , marginBottom: '60px'}} className="btn btn-secondary ">Ver Servicios</Link>
-        
+          <Link to="/Servicios" style={{ marginTop: '10px', marginBottom: '60px' }} className="btn btn-secondary ">Ver Servicios</Link>
+
         </div>
         <div className="carousel-card ">
-        <ImageGallery
-          items={imagesGallery}
-          autoPlay={true}
-          renderItem={(item) => (
-            <div className="image-container">
-              <img src={item.original} alt="" />
-            </div>
-          )}
-        />
+          <ImageGallery
+            items={imagesGallery}
+            autoPlay={true}
+            renderItem={(item) => (
+              <div className="image-container">
+                <img src={item.original} alt="" />
+              </div>
+            )}
+          />
         </div>
 
       </section>
 
       <FeaturesList residencialNames="Mónaco" />
-      <div style={{paddingBottom: '180px'}}>
+      <div style={{ paddingBottom: '180px' }}>
         <section className="contact margin" id="contact">
 
           <div className="contact-content section-content">
@@ -244,7 +250,7 @@ function ResidencialMonaco() {
 
 
           <iframe className=" contact-form contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.707801571634!2d-56.19915186831462!3d-34.87220392709374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f800693e789db%3A0x2e4907e80542eb6a!2sBv.%20Gral.%20Artigas%204189%2C%2011800%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1720877605166!5m2!1ses!2suy" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-          
+
 
         </section>
 

@@ -456,7 +456,7 @@ body.active {
 .btn-secondary {
   background: var(--raw-seinna);
   border-color: var(--raw-seinna);
-  color: var(--black);
+  color: white;
 }
 
 .btn-secondary:is(:hover, :focus) {
@@ -465,8 +465,9 @@ body.active {
 
 .section-subtitle {
   position: relative;
-  color: var(--color-secondary);
+  color: var(--raw-seinna);
   text-transform: uppercase;
+ 
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
@@ -478,7 +479,7 @@ body.active {
   left: 0;
   width: 60px;
   height: 2px;
-  background: var(--color-secondary);
+  background: var(--raw-seinna);
 }
 
 .section-title {
@@ -1261,7 +1262,7 @@ textarea.input-field {
   pointer-events: none;
   transform: translateY(10px);
   transition: var(--transition-1);
-  z-index: 2;
+  z-index: 10;
 }
 
 .go-top.active {
@@ -1621,12 +1622,14 @@ textarea.input-field {
     transform: rotate(0.75turn) translateX(-100%);
     transform-origin: left top;
     margin-bottom: 0;
+  
   }
 
   .section-subtitle::after {
     top: 8px;
     left: auto;
     right: calc(100% + 20px);
+    background: var(--raw-seinna);
   }
 
 
