@@ -30,6 +30,19 @@ function ResidencialMonaco() {
       thumbnail: "./assets/images/m5.webp",
     },
     {
+      original: "./assets/images/m12.webp",
+      thumbnail: "./assets/images/m12.webp",
+    },
+    {
+      original: "./assets/images/m13.webp",
+      thumbnail: "./assets/images/m13.webp",
+    },
+    {
+      original: "./assets/images/m14.webp",
+      thumbnail: "./assets/images/m14.webp",
+    },
+   
+    {
       original: "./assets/images/m6.webp",
       thumbnail: "./assets/images/m6.webp",
     },
@@ -37,14 +50,7 @@ function ResidencialMonaco() {
       original: "./assets/images/m7.webp",
       thumbnail: "./assets/images/m7.webp",
     },
-    {
-      original: "./assets/images/m8.webp",
-      thumbnail: "./assets/images/m8.webp",
-    },
-    {
-      original: "./assets/images/m9.webp",
-      thumbnail: "./assets/images/m9.webp",
-    },
+    
     {
       original: "./assets/images/m10.webp",
       thumbnail: "./assets/images/m10.webp",

@@ -11,13 +11,22 @@ const images = [
     original: "./assets/images/renacer-banner.webp",
     thumbnail: "./assets/images/renacer-banner.webp",
   },
+ 
   {
-    original: "./assets/images/renacer2.webp",
-    thumbnail: "./assets/images/renacer2.webp",
+    original: "./assets/images/renacer16.jpeg",
+    thumbnail: "./assets/images/renacer16.jpeg",
   },
   {
-    original: "./assets/images/g1.webp",
-    thumbnail: "./assets/images/g1.webp",
+    original: "./assets/images/renacer17.jpeg",
+    thumbnail: "./assets/images/renacer17.jpeg",
+  },
+  {
+    original: "./assets/images/t1.jpeg",
+    thumbnail: "./assets/images/t1.jpeg",
+  },
+  {
+    original: "./assets/images/t2.jpeg",
+    thumbnail: "./assets/images/t2.jpeg",
   },
   {
     original: "./assets/images/g2.webp",
@@ -51,7 +60,7 @@ function ImageCarousel() {
       <div className="about-intro section-intro">
         <h2 className="h3 section-title margin">Explora Nuestros Espacios </h2>
         <p className="section-text margin">
-          En nuestras residencias, ofrecemos ambientes confortables y acogedores
+          En nuestros residenciales, ofrecemos ambientes confortables y acogedores
           diseñados para el bienestar de nuestros residentes. Explora nuestras
           instalaciones y descubre los espacios que hacen de nuestro hogar un
           lugar especial para vivir.

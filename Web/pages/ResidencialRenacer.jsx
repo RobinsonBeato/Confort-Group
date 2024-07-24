@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FeaturesList from '../components/FueaturesList';
+import FeaturesListRenacer from '../components/FeaturesListRenacer';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import RenacerLogo from '../components/RenacerLogo';
@@ -15,8 +15,16 @@ function ResidencialRenacer() {
       thumbnail: "./assets/images/renacer-banner.webp",
     },
     {
-      original: "./assets/images/renacer2.webp",
-      thumbnail: "./assets/images/renacer2.webp",
+      original: "./assets/images/renacer16.jpeg",
+      thumbnail: "./assets/images/renacer16.jpeg",
+    },
+    {
+      original: "./assets/images/renacer17.jpeg",
+      thumbnail: "./assets/images/renacer17.jpeg",
+    },
+    {
+      original: "./assets/images/t2.jpeg",
+      thumbnail: "./assets/images/t2.jpeg",
     },
     {
       original: "./assets/images/renacer3.webp",
@@ -126,7 +134,7 @@ function ResidencialRenacer() {
 
       </section>
 
-      <FeaturesList residencialNames="Renacer" />
+      <FeaturesListRenacer residencialNames="Renacer" />
       <div>
         <section className="contact margin" id="contact">
 

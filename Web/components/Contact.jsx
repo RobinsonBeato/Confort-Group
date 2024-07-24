@@ -7,10 +7,10 @@ const Contact = () => {
 
                 <p className="section-subtitle">Contactos</p>
 
-                <h2 className="h3 section-title">¿Tienes alguna pregunta? <br/> ¡Contáctanos!</h2>
+                <h2 className="h3 section-title">¿Tienes alguna pregunta? <br /> ¡Contáctanos!</h2>
 
                 <p className="section-text">
-                Ponte en contacto y déjame saber cómo puedo ayudarte. Completa el formulario y me pondré en contacto contigo lo antes posible.
+                    Ponte en contacto y déjame saber cómo puedo ayudarte. Completa el formulario y me pondré en contacto contigo lo antes posible.
                 </p>
 
                 <ul className="contact-list">
@@ -27,9 +27,9 @@ const Contact = () => {
                             <address style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', }} className="contact-info">
                                 Avenida Garzón 973
                             </address>
-                           
+
                         </div>
-                        
+
 
                     </li>
 
@@ -41,10 +41,11 @@ const Contact = () => {
 
                         <div className="wrapper">
                             <h3 className="h4 contact-item-title">Teléfono:</h3>
+                            <a href="tel:+598094942434" className="contact-info">(+598) 094 942 434</a>
 
                             <a href="tel:+598094666352" className="contact-info">(+598) 094 666 352</a>
 
-                            <a href="tel:+598094942434" className="contact-info">(+598) 094 942 434</a>
+
                         </div>
 
                     </li>
@@ -115,9 +116,9 @@ const Contact = () => {
 
                     <div className="input-wrapper">
 
-                        <input type="text" name="name" id="name" required placeholder="Nombre Completo" className="input-field"/>
+                        <input type="text" name="name" id="name" required placeholder="Nombre Completo" className="input-field" />
 
-                            <ion-icon name="person-circle"></ion-icon>
+                        <ion-icon name="person-circle"></ion-icon>
 
                     </div>
 
@@ -130,9 +131,9 @@ const Contact = () => {
                     <div className="input-wrapper">
 
                         <input type="email" name="email" id="email" required placeholder="ejemplo@gmail.com"
-                            className="input-field"/>
+                            className="input-field" />
 
-                            <ion-icon name="mail"></ion-icon>
+                        <ion-icon name="mail"></ion-icon>
 
                     </div>
 
@@ -144,9 +145,9 @@ const Contact = () => {
 
                     <div className="input-wrapper">
 
-                        <input type="tel" name="phone" id="phone" required placeholder="Número de Teléfono" className="input-field"/>
+                        <input type="tel" name="phone" id="phone" required placeholder="Número de Teléfono" className="input-field" />
 
-                            <ion-icon name="call"></ion-icon>
+                        <ion-icon name="call"></ion-icon>
 
                     </div>
 
