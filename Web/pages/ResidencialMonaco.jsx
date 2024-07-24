@@ -22,6 +22,10 @@ function ResidencialMonaco() {
       thumbnail: "./assets/images/m3.webp",
     },
     {
+      original: "./assets/images/m15.webp",
+      thumbnail: "./assets/images/m15.webp",
+    },
+    {
       original: "./assets/images/m4.webp",
       thumbnail: "./assets/images/m4.webp",
     },
@@ -58,29 +62,22 @@ function ResidencialMonaco() {
   ];
   const imagesGallery = [
     {
-      original: "./assets/images/s8.jpg",
-      thumbnail: "./assets/images/s8.jpg",
+      original: "./assets/images/s24.webp",
+      thumbnail: "./assets/images/s24.webp",
     },
     {
-      original: "./assets/images/s2.jpg",
-      thumbnail: "./assets/images/s2.jpg",
+      original: "./assets/images/s23.webp",
+      thumbnail: "./assets/images/s23.webp",
     },
     {
-      original: "./assets/images/s3.jpg",
-      thumbnail: "./assets/images/s3.jpg",
+      original: "./assets/images/s22.webp",
+      thumbnail: "./assets/images/s22.webp",
     },
     {
-      original: "./assets/images/s4.jpg",
-      thumbnail: "./assets/images/s4.jpg",
+      original: "./assets/images/s21.webp",
+      thumbnail: "./assets/images/s21.webp",
     },
-    {
-      original: "./assets/images/s5.jpg",
-      thumbnail: "./assets/images/s5.jpg",
-    },
-    {
-      original: "./assets/images/s6.jpg",
-      thumbnail: "./assets/images/s6.jpg",
-    },
+ 
   ];
   return (
     <>
