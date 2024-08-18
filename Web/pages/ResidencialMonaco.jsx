@@ -101,7 +101,7 @@ function ResidencialMonaco() {
 
           <p className="section-subtitle margin">Residencial Mónaco</p>
 
-          <h2 className="h3 section-title margin">Mónaco </h2>
+          <h2 className="h3 section-title margin">Mónacooo </h2>
 
           <p className="section-text margin">
             Residencial Mónaco, situado en Bulevar Artigas 4189, ofrece un entorno lujoso y acogedor en el corazón del Prado. Con cupos limitados para 10 residentes, contamos con habitaciones individuales y dobles, todas equipadas con aire acondicionado, TV por cable y frigobar. Los espacios comunes son amplios, con TV LED de 55”, aire acondicionado y sillones recliners.
