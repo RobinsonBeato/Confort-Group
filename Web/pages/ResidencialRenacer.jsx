@@ -135,7 +135,7 @@ function ResidencialRenacer() {
       </section>
 
       <FeaturesListRenacer residencialNames="Renacer" />
-      <div>
+      <div style={{ paddingBottom: '180px' }}>
         <section className="contact margin" id="contact">
 
           <div className="contact-content section-content">

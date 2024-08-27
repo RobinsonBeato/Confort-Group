@@ -11,7 +11,7 @@
           <defs>
             <style >
               {
-                ".cls-1,.cls-2{fill:#205087;fill-rule:evenodd}.cls-2{fill:#d62020}.cls-3,.cls-6{fill:none;stroke-miterlimit:22.93;stroke-width:.90px}.cls-3{stroke:#d62020}.cls-6{stroke:#205087}"
+                ".cls-1,.cls-2{fill:#591d01;fill-rule:evenodd}.cls-2{fill:#f58634}.cls-3,.cls-6{fill:none;stroke-miterlimit:22.93;stroke-width:.90px}.cls-3{stroke:#f58634}.cls-6{stroke:#591d01}"
               }
             </style>
           </defs>
@@ -33,7 +33,7 @@
             cy={25.41}
             r={3.89}
             style={{
-              fill: "#d62020",
+              fill: "#f58634",
             }}
           />
           <circle cx={18.03} cy={25.41} r={3.89} className="cls-3" />
@@ -42,7 +42,7 @@
             cy={10.96}
             r={8.95}
             style={{
-              fill: "#205087",
+              fill: "#591d01",
             }}
           />
           <circle cx={71.65} cy={10.96} r={8.95} className="cls-6" />
