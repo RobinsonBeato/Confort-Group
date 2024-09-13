@@ -1,5 +1,26 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
+    const form = useRef();
 
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs
+        .sendForm('service_3cuffxn', 'template_isqp9ze', form.current, {
+          publicKey: 'f37xRaBLKw0BtIvLv',
+        })
+        .then(
+          () => {
+            toast.success('Correo enviado con éxito!');
+          },
+          (error) => {
+            toast.error(`Error al enviar el correo: ${error.text}`);
+          },
+        );
+    };
     return (
         <section className="contact margin" id="contact">
 
@@ -108,7 +129,7 @@ const Contact = () => {
 
             </div>
 
-            <form action="" className="contact-form">
+            <form ref={form} onSubmit={sendEmail}  className="contact-form">
 
                 <div className="form-wrapper">
 
@@ -116,7 +137,7 @@ const Contact = () => {
 
                     <div className="input-wrapper">
 
-                        <input type="text" name="name" id="name" required placeholder="Nombre Completo" className="input-field" />
+                        <input type="text" name="user_name" id="name" required placeholder="Nombre Completo" className="input-field" />
 
                         <ion-icon name="person-circle"></ion-icon>
 
@@ -130,7 +151,7 @@ const Contact = () => {
 
                     <div className="input-wrapper">
 
-                        <input type="email" name="email" id="email" required placeholder="ejemplo@gmail.com"
+                        <input type="email" name="user_email" id="email" required placeholder="ejemplo@gmail.com"
                             className="input-field" />
 
                         <ion-icon name="mail"></ion-icon>
@@ -145,7 +166,7 @@ const Contact = () => {
 
                     <div className="input-wrapper">
 
-                        <input type="tel" name="phone" id="phone" required placeholder="Número de Teléfono" className="input-field" />
+                        <input type="tel" name="user_phone" id="phone" required placeholder="Número de Teléfono" className="input-field" />
 
                         <ion-icon name="call"></ion-icon>
 
@@ -171,6 +192,7 @@ const Contact = () => {
                 <button type="submit" className="btn btn-primary">Enviar</button>
 
             </form>
+            <ToastContainer/>
 
         </section>
 

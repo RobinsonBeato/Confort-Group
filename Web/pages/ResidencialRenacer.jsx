@@ -193,7 +193,7 @@ function ResidencialRenacer() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Email:</h3>
 
-                  <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
+                  <a href="renacer@confort-group.com" className="contact-info">renacer@confort-group.com</a>
 
 
                 </div>
