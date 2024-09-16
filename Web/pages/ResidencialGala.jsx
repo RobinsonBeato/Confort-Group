@@ -225,7 +225,7 @@ function ResidencialRenacer() {
                 <div className="wrapper">
                   <h3 className="h4 contact-item-title">Email:</h3>
 
-                  <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
+                  <a href="mailto:gala@confort-group.com" className="contact-info">gala@confort-group.com</a>
                 </div>
 
               </li>
@@ -234,7 +234,7 @@ function ResidencialRenacer() {
                 <ul className="contac-social-list">
 
                   <li>
-                    <a href="https://www.facebook.com/residencial.gala" className="contact-social-link">
+                    <a href="https://www.facebook.com/profile.php?id=61564157926380" className="contact-social-link">
                       <div className="tooltip">Facebook</div>
 
                       <ion-icon name="logo-facebook"></ion-icon>
@@ -242,7 +242,7 @@ function ResidencialRenacer() {
                   </li>
 
                   <li>
-                    <a href="#" className="contact-social-link">
+                    <a href="https://x.com/confort_group_" className="contact-social-link">
                       <div className="tooltip">Twitter</div>
 
                       <ion-icon name="logo-twitter"></ion-icon>

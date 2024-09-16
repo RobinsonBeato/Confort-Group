@@ -80,9 +80,10 @@ const Contact = () => {
                         <div className="wrapper">
                             <h3 className="h4 contact-item-title">Email:</h3>
 
-                            <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
+                            <a href="mailto:renacer@confort-group.com" className="contact-info">renacer@confort-group.com</a>
 
-                            <a href="mailto:residencial.renacer@hotmail.com" className="contact-info">residencial.renacer@hotmail.com</a>
+                            <a href="mailto:gala@confort-group.com" className="contact-info">gala@confort-group.com</a>
+                            <a href="mailto:monaco@confort-group.com" className="contact-info">monaco@confort-group.com</a>
                         </div>
 
                     </li>
@@ -99,7 +100,7 @@ const Contact = () => {
                             </li>
 
                             <li>
-                                <a href="#" className="contact-social-link">
+                                <a href="https://x.com/confort_group_" className="contact-social-link">
                                     <div className="tooltip">Twitter</div>
 
                                     <ion-icon name="logo-twitter"></ion-icon>
