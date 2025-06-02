@@ -10,60 +10,56 @@ function ResidencialRoyal() {
 
   const images = [
     {
-      original: "./assets/images/monaco-banner.webp",
-      thumbnail: "./assets/images/monaco-banner.webp",
+      original: "./assets/images/royal-banner.webp",
+      thumbnail: "./assets/images/royal-banner.webp",
     },
     {
-      original: "./assets/images/m2.webp",
-      thumbnail: "./assets/images/m2.webp",
+      original: "./assets/images/r2.webp",
+      thumbnail: "./assets/images/r2.webp",
     },
     {
-      original: "./assets/images/m3.webp",
-      thumbnail: "./assets/images/m3.webp",
+      original: "./assets/images/r4.webp",
+      thumbnail: "./assets/images/r4.webp",
     },
     {
-      original: "./assets/images/m15.webp",
-      thumbnail: "./assets/images/m15.webp",
+      original: "./assets/images/r5.webp",
+      thumbnail: "./assets/images/r5.webp",
     },
     {
-      original: "./assets/images/m4.webp",
-      thumbnail: "./assets/images/m4.webp",
+      original: "./assets/images/r7.webp",
+      thumbnail: "./assets/images/r7.webp",
     },
     {
-      original: "./assets/images/m5.webp",
-      thumbnail: "./assets/images/m5.webp",
+      original: "./assets/images/r9.webp",
+      thumbnail: "./assets/images/r9.webp",
     },
     {
-      original: "./assets/images/m12.webp",
-      thumbnail: "./assets/images/m12.webp",
+      original: "./assets/images/r10.webp",
+      thumbnail: "./assets/images/r10.webp",
     },
     {
-      original: "./assets/images/m13.webp",
-      thumbnail: "./assets/images/m13.webp",
+      original: "./assets/images/r11.webp",
+      thumbnail: "./assets/images/r11.webp",
     },
     {
-      original: "./assets/images/m14.webp",
-      thumbnail: "./assets/images/m14.webp",
+      original: "./assets/images/r12.webp",
+      thumbnail: "./assets/images/r12.webp",
     },
    
     {
-      original: "./assets/images/m6.webp",
-      thumbnail: "./assets/images/m6.webp",
+      original: "./assets/images/r14.webp",
+      thumbnail: "./assets/images/r14.webp",
     },
     {
-      original: "./assets/images/m7.webp",
-      thumbnail: "./assets/images/m7.webp",
+      original: "./assets/images/r15.webp",
+      thumbnail: "./assets/images/r15.webp",
     },
     
-    {
-      original: "./assets/images/m10.webp",
-      thumbnail: "./assets/images/m10.webp",
-    },
   ];
   const imagesGallery = [
     {
-      original: "./assets/images/s24.webp",
-      thumbnail: "./assets/images/s24.webp",
+      original: "./assets/images/royal-banner.webp",
+      thumbnail: "./assets/images/royal-banner.webp",
     },
     {
       original: "./assets/images/s23.webp",

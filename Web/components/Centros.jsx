@@ -18,7 +18,7 @@ const Centros = () => {
                         <h2 className="h3 section-title">Conoce nuestros Residenciales</h2>
 
                         <p className="section-text">
-                            Te invitamos a conocer nuestros centros residenciales para adultos mayores, Renacer, Gala y Mónaco. En cada uno de ellos, ofrecemos un entorno acogedor, seguro y cómodo, pensado para brindar la mejor calidad de vida a nuestros residentes. Nuestros centros cuentan con instalaciones modernas y bien equipadas, diseñadas específicamente para el bienestar y la felicidad de tus seres queridos.
+                            Te invitamos a conocer nuestros centros residenciales para adultos mayores, Renacer, Gala, Mónaco y Royal. En cada uno de ellos, ofrecemos un entorno acogedor, seguro y cómodo, pensado para brindar la mejor calidad de vida a nuestros residentes. Nuestros centros cuentan con instalaciones modernas y bien equipadas, diseñadas específicamente para el bienestar y la felicidad de tus seres queridos.
 
 
 
@@ -88,7 +88,7 @@ const Centros = () => {
                     <div className="project-card" >
 
                         <figure className="card-banner">
-                            <img src="./assets/images/monaco-banner.webp" className="w-100"
+                            <img src="./assets/images/royal-banner.webp" className="w-100"
                                 alt="A Cassette tape on a mellow apricot background." />
                         </figure>
                         <div className="highlight-circle"></div>
