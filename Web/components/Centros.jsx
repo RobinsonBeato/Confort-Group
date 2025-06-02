@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import RenacerLogo from './RenacerLogo';
 import MonacoLogo from './MonacoLogo';
 import GalaLogo from './GalaLogo';
+import RoyalLogo from './RoyalLogo';
 const Centros = () => {
 
     return (
@@ -77,6 +78,24 @@ const Centros = () => {
                         <Link to="/residencial-monaco" style={{ width: '100x', position: 'absolute', bottom: '15px', right: '15px', zIndex: '2', color: 'white', borderRadius: '10px' }} className="btn btn-secondary ">Conocer</Link>
                         <div className="card-content">
                             <h3 className="h4 card-title">Residencial Mónaco</h3>
+
+
+                        </div>
+
+                    </div>
+                </li>
+                <li>
+                    <div className="project-card" >
+
+                        <figure className="card-banner">
+                            <img src="./assets/images/monaco-banner.webp" className="w-100"
+                                alt="A Cassette tape on a mellow apricot background." />
+                        </figure>
+                        <div className="highlight-circle"></div>
+                        <RoyalLogo style={{ width: '30%', position: 'absolute', top: '15px', left: '15px', zIndex: '3' }} />
+                        <Link to="/residencial-royal" style={{ position: 'absolute', bottom: '15px', right: '15px', zIndex: '2', color: 'white', borderRadius: '10px' }} className="btn btn-secondary ">Conocer</Link>
+                        <div className="card-content">
+                            <h3 className="h4 card-title">Residencial Royal</h3>
 
 
                         </div>

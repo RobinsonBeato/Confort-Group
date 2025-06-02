@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import ResidencialRenacer from '../pages/ResidencialRenacer';
 import ResidencialMonaco from '../pages/ResidencialMonaco';
 import ResidencialGala from '../pages/ResidencialGala';
+import ResidencialRoyal from '../pages/ResidencialRoyal';
 import Servicios from '../pages/Servicios';
 import Layout from './Layout';
 import { Routes, Route, Outlet, Link } from "react-router-dom";
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="residencial-renacer" element={<ResidencialRenacer/>} />
           <Route path="residencial-monaco" element={<ResidencialMonaco/>} />
           <Route path="residencial-gala" element={<ResidencialGala/>} />
+          <Route path="residencial-royal" element={<ResidencialRoyal/>} />
           <Route path="servicios" element={<Servicios/>} />
           <Route path="centros" element={<Centros/>} />
           <Route path="about" element={<About/>} />
