@@ -1944,4 +1944,160 @@ textarea.input-field {
     max-width: 450px;
   }
 
+  /* ------------------------------------------- 
+   # PROJECT (Centros)
+   ------------------------------------------- */
+
+.project {
+  padding-block: var(--section-padding);
+}
+
+/* La <ul class="project-list"> será ahora un grid */
+.project-list {
+  display:grid ;
+  gap: 25px;
+  /* Por defecto, 1 columna en móvil */
+  grid-template-columns: 1fr;
+  padding: 0;   /* eliminamos padding/márgenes extra */
+  margin: 0;
+}
+
+/* El primer <li> (intro) ocupará toda la fila */
+.project-list > li.project-intro {
+  /* No es una card, solo texto introductorio */
+  grid-column: 1 / -1;
+}
+
+/* Cada otra <li> contiene una tarjeta visual. Eliminamos margin-bottom */
+.project-list > li:not(.project-intro) {
+  margin: 0;
+}
+
+/* -------------------------------------------
+   .project-card (el contenedor de cada tarjeta)
+   ------------------------------------------- */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-12);
+  box-shadow: 2px 4px 6px hsla(0, 0%, 0%, 0.2);
+  /* Hacemos que la “card” tenga una proporción constante (16:9). 
+     Si prefieres otra proporción, ajústala aquí. */
+  aspect-ratio: 4/3;
+  background-color: var(--bg-secondary);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Overlay ligero al hacer hover/focus */
+.project-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  transition: var(--transition-1);
+}
+
+.project-card:is(:hover, :focus)::after {
+  background: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(0.5px);
+}
+
+/* -------------------------------------------
+   .card-banner: contenedor de la <img>
+   ------------------------------------------- */
+.card-banner {
+  flex: 1 1 auto; /* que ocupe todo el espacio disponible */
+  overflow: hidden;
+}
+
+.card-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* -------------------------------------------
+   .highlight-circle (blur debajo del logo)
+   ------------------------------------------- */
+.highlight-circle {
+  position: absolute;
+  top: 3px;
+  left: 19px;
+  width: 350px;
+  height: 150px;
+  background: white;
+  border-radius: 50%;
+  filter: blur(30px);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+/* -------------------------------------------
+   Botón “Conocer” en cada tarjeta
+   ------------------------------------------- */
+.btn-card {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 3;
+  /* Para que tenga un padding razonable y no se “estire” */
+  padding: 10px 20px;
+}
+
+/* -------------------------------------------
+   .card-content + .card-title (texto inferior)
+   ------------------------------------------- */
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0)
+  );
+  /* De este modo el título siempre es legible sobre la imagen */
+}
+
+
+
+/* -------------------------------------------
+   MEDIA QUERIES para responsividad
+   ------------------------------------------- */
+
+/* ---- A partir de 550px de ancho, dos columnas ---- */
+@media (min-width: 550px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* El bloque intro sigue ocupando 2 columnas */
+  .project-list > li.project-intro {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---- A partir de 992px de ancho, tres columnas ---- */
+@media (min-width: 992px) {
+  .project-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* El bloque intro siempre ocupa TODAS las columnas (3) */
+  .project-list > li.project-intro {
+    grid-column: 1 / -1;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .project-list {
+    gap: 40px;
+  }
+}
+
+
 }
