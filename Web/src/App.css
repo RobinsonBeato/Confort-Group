@@ -2098,6 +2098,15 @@ textarea.input-field {
     gap: 40px;
   }
 }
+.responsive-margin {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
+@media (min-width: 640px) {
+  .responsive-margin {
+    margin-bottom: -60px;
+  }
+}
 
 }
