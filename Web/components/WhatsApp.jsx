@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const WHATSAPP_BASE = "https://wa.me/59894942434";
+const WHATSAPP_BASE = "https://wa.me/59892164879";
 
 const WhatsApp = () => {
   const [menuOpen, setMenuOpen] = useState(false);
