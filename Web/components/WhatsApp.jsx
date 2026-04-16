@@ -1,6 +1,9 @@
 import { useState } from "react";
 
-const WHATSAPP_BASE = "https://wa.me/59892164879";
+const WHATSAPP_LINKS = {
+  client: "https://wa.me/59892164879",
+  job: "https://wa.me/59891028037",
+};
 
 const WhatsApp = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,8 +15,8 @@ const WhatsApp = () => {
   };
 
   // Construyo la URL escapando el texto automáticamente
-  const buildLink = (text) =>
-    `${WHATSAPP_BASE}?text=${encodeURIComponent(text)}`;
+  const buildLink = (type) =>
+    `${WHATSAPP_LINKS[type]}?text=${encodeURIComponent(messages[type])}`;
 
   return (
     <>
@@ -75,7 +78,7 @@ const WhatsApp = () => {
           <div className="whatsapp-menu">
             <a
               className="whatsapp-menu__item"
-              href={buildLink(messages.client)}
+              href={buildLink("client")}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,7 +86,7 @@ const WhatsApp = () => {
             </a>
             <a
               className="whatsapp-menu__item"
-              href={buildLink(messages.job)}
+              href={buildLink("job")}
               target="_blank"
               rel="noopener noreferrer"
             >
